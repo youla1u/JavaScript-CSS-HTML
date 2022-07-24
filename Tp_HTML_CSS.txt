@@ -1,0 +1,5953 @@
+<!DOCTYPE>
+<html>
+    <head>
+      <title>Où écrire le JavaScript ?</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>On peut écrire le JavaScipt dans...</h1>
+      <ul>
+          <li>L'élément head d'un fichier HTML</li>
+          <li>L'élément body d'un fichier HTML</li>
+          <li>Un fichier .js séparé</li>
+      </ul>
+      <script src="javascript.js"></script>    
+    </body>  
+</html>
+################################################################################
+<!DOCTYPE>
+<html>
+    <head>
+      <title>les bases en HTML</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <p>Un paragraphe avec <strong>une partie très importante</strong></p>
+      <p>Un paragraphe avec <em>une partie relativement importante</em></p>
+      <p>Un paragraphe avec <mark>un contenu marqué</mark></p>               
+    <body>  
+</html>
+#############################################################################
+<!DOCTYPE>
+<html>
+    <head>
+      <title>les bases en HTML</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <ul>
+          <li>Pomme</li>
+          <li>Vélo</li>
+          <li>Guitare</li>
+      </ul>                 
+    <body>  
+</html>
+############################################################################
+<!DOCTYPE>
+<html>
+    <head>
+      <title>les bases en HTML</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <ul>
+          <li>Pomme</li>
+          <li>Vélo</li>
+          <li>Guitare</li>
+      </ul>
+ 
+      <ol>
+          <li>Introduction</li>
+          <li>Partie I</li>
+          <li>Partie II</li>
+          <li>Partie III</li>
+          <li>Conclusion</li>
+      </ol>                  
+    <body>  
+</html>
+##############################################################################
+
+<!DOCTYPE>
+<html>
+    <head>
+      <title>les bases en HTML</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <ul>
+          <li>Pomme</li>
+          <li>Vélo</li>
+          <li>Guitare</li>
+      </ul>
+ 
+      <ol type="I">
+          <li>Introduction</li>
+          <li>Partie I</li>
+          <li>Partie II</li>
+          <li>Partie III</li>
+          <li>Conclusion</li>
+      </ol> 
+      <ol type="i">
+          <li>Introduction</li>
+          <li>Partie I</li>
+          <li>Partie II</li>
+          <li>Partie III</li>
+          <li>Conclusion</li>
+      </ol>
+      <ol type="A">
+          <li>Introduction</li>
+          <li>Partie I</li>
+          <li>Partie II</li>
+          <li>Partie III</li>
+          <li>Conclusion</li>
+      </ol> 
+      <ol type="a">
+          <li>Introduction</li>
+          <li>Partie I</li>
+          <li>Partie II</li>
+          <li>Partie III</li>
+          <li>Conclusion</li>
+      </ol>
+      <dl>
+         <dt>HTML</dt>
+         <dd>HTML signifie Hypertext Markup language</dd>
+      </dl>                           
+    <body>  
+</html>
+###########################################################################
+<!DOCTYPE>
+<html>
+    <head>
+      <title>les bases en HTML</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+        <ol>
+            <li>Partie I
+                <ul>
+                    <li>Définition</li>
+                    <li>Ateurs</li>
+                    <li>Exemples</li> 
+                </ul>
+             </li>
+             <li>Partie II</li>
+             <li>Partie III</li>          
+        </ol>                              
+    <body>  
+</html>
+###############################################################################
+<!DOCTYPE>
+<html>
+    <head>
+      <title>les bases en HTML</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+        <p>Cliquez <a href="https://wikipedia.org">ici</a> pour vous rendre sur la page Wikipédia</p>             
+    <body>  
+</html>
+###############################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en HTML</title>
+      <meta charset="utf-8">
+      <style>
+          body{
+               background-color: orange;
+          }             
+      </style>      
+    </head>
+    <body>
+       <h1>Une bele maison</h1>      
+       <p>Je suis un paragraphe</p>                      
+    </body>  
+</html>
+#################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en HTML</title>
+      <meta charset="utf-8">
+      <style>
+          body{
+               background-color: orange;
+          }             
+      </style>      
+    </head>
+    <body>
+       <h1>Une bele maison</h1>      
+       <p style="color: red;">Je suis un paragraphe</p> 
+       <p>Je suis un deuxième paragraphe</p>                     
+    </body>  
+</html>
+##################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en HTML</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">     
+    </head>
+    <body>
+       <h1>Une bele maison</h1>      
+       <p style="color: red;">Je suis un paragraphe</p> 
+       <p>Je suis un deuxième paragraphe</p>                     
+    </body>  
+</html>
+#############
+# fichier:  style.css :
+
+body{
+     background-color: green;
+
+}
+
+########
+/* Je e suis un comentaire*/ 
+body{
+     background-color: green;
+     /*background-color: blue;*/
+}
+
+/* Je e suis 
+un comentaire
+multiligne*/ 
+
+################ indentation
+/* Je e suis un comentaire*/ 
+body{
+     background-color: blue;
+     margin : 0px;
+}
+
+p{
+     color: red;
+}
+
+/* Je e suis 
+un comentaire
+multiligne*/ 
+###################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">     
+    </head>
+    <body>
+       <h1>Une bele maison</h1>      
+       <p>Je suis un paragraphe</p> 
+       <p>Je suis un deuxième paragraphe</p>                     
+    </body>  
+</html>
+
+#######
+h1{
+     font-size: 80px;
+     color: red;
+     font-style: italic;
+}
+
+p{
+     color: blue;
+     font-weight: bold;
+}
+########
+h1, p{
+     
+     color: blue;
+     
+}
+###################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">     
+    </head>
+    <body>
+       <h1>Une bele maison</h1>      
+       <p id="p1">Je suis un paragraphe</p> 
+       <p class="p1">Je suis un deuxième paragraphe</p>                     
+    </body>  
+</html>
+
+#######
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">     
+    </head>
+    <body>
+       <h1 class="p1">Une bele maison</h1>      
+       <p id="p1">Je suis un paragraphe</p> 
+       <p class="p1">Je suis un deuxième paragraphe</p>
+       <p class="p1">Je suis un troisième paragraphe</p>                     
+    </body>  
+</html>
+#######
+#p1{
+     color: blue;
+}  
+
+.p1{
+     color: red;
+}  
+##################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">     
+    </head>
+    <body>
+       <h1 class="p1">Une bele maison</h1>      
+       <p id="p1">Je suis un paragraphe</p> 
+       <p class="p1">Je suis un deuxième paragraphe</p>
+       <p class="p1" id="para">Je suis un troisième paragraphe</p>                     
+    </body>  
+</html>
+########
+#p1{
+     color: blue;
+}  
+
+.p1{
+     color: red;
+}     
+
+#para{
+     font-weight: bold;
+}     
+
+######### 
+#p1{
+     color: blue;
+}  
+
+.p1{
+     color: red;
+}     
+
+#para{
+     color: green;
+}     
+###################################################################################
+
+#NB: ordre  de priorité : atribut style, puis l'element style, ensuite le fichier css    
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">     
+    </head>
+    <body>
+       <h1 class="p1">Une bele maison</h1>      
+       <p id="p1">Je suis un paragraphe</p> 
+       <p class="p1" style="color:green;">Je suis un deuxième paragraphe</p>
+       <p class="p1">Je suis un troisième paragraphe</p>                     
+    </body>  
+</html>
+########
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <style>
+          p{
+             color: purple;
+           }
+      </style>      
+    </head>
+    <body>
+       <h1 class="p1">Une bele maison</h1>      
+       <p id="p1">Je suis un paragraphe</p> 
+       <p class="p1" style="color:green;">Je suis un deuxième paragraphe</p>
+       <p class="p1">Je suis un troisième paragraphe</p>                     
+    </body>  
+</html>
+#######
+
+body{
+     color: blue;
+}  
+
+p{
+     color: red;
+}     
+  
+################################################################################## 
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>Je suis un élément de type block</p>                       
+    </body>  
+</html>
+#####
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>Je suis un élément de <strong>type block</strong></p>                       
+    </body>  
+</html>
+
+#####
+p{
+     border: 1px solid black;
+}  
+#####
+strong{
+     border: 1px solid black;
+}     
+###################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Div et span</h1>
+        <div class="div-para">  
+            <p>L'élément p est un élément de type block</p> 
+            <p>Un <strong>autre</strong> paragraphe</p>
+        </div> 
+        <p>Un troisième paragraphe</p>                        
+    </body>  
+</html>  
+
+########
+.div-para{
+     background-color: #88BB11;
+     font-weight:bold;
+}   
+###################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Div et span</h1>
+        <div class="div-para">  
+            <p>L'élément p est un élément de type block</p> 
+            <p>Un <strong>autre</strong> paragraphe</p>
+        </div> 
+        <p>Un <span class="span-trois">troisième</span> paragraphe</p>                        
+    </body>  
+</html> 
+
+#######
+.div-para{
+     background-color: #88BB11;
+     font-weight:bold;
+}     
+.span-trois{
+     color:blue;
+}
+################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Font family</h1>
+        <p>Un paragraphe</p>                        
+    </body>  
+</html>
+#########
+body{
+font-family: "Century Gothic", verdana, sans-serif;   
+}
+###################################################################################
+https://fonts.google.com/
+https://fonts.google.com/specimen/Roboto?preview.text=open%20sans&preview.text_type=custom#standard-styles
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+        <h1>Font family</h1>
+        <p>Un paragraphe</p>                        
+    </body>  
+</html>
+
+#######
+
+body{
+     font-family: 'Roboto', sans-serif;  
+}
+
+##################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+        <h1>Font family</h1>
+        <p>Un paragraphe</p>                        
+    </body>  
+</html>
+
+########
+
+body{
+     font-family: 'Roboto', sans-serif;  
+}
+
+h1{
+    font-size: 100px;
+}
+
+p{
+    font-size: 150%;
+}
+
+#########
+body{
+     font-family: 'Roboto', sans-serif;  
+}
+
+h1{
+    font-size: 100px;
+    font-style: italic;
+}
+
+p{
+    font-size: 150%;
+    font-style: oblique;
+}
+
+# Nb: oblique pour forcer l'inclinaison.
+
+########
+h1{
+    font-size: 100px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+p{
+    font-size: 150%;
+    font-style: oblique;
+    font-weight: 700;
+}
+
+#################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+        <h1>Gestion de la couleur</h1>
+        <p class="p1">Un paragraphe</p> 
+        <p class="p2"> Un deuxième paragraphe</p>                       
+    </body>  
+</html>
+
+#########
+body{
+     font-family: 'Roboto', sans-serif;  
+}
+
+h1{
+    color: purple;
+}
+
+.p1{
+    color: purple;
+}
+
+.p2{
+    color: red;
+}
+######
+
+body{
+     font-family: 'Roboto', sans-serif;  
+}
+
+h1{
+    color: #FF0000;
+}
+
+.p1{
+    color: #0000FF;
+}
+
+.p2{
+    color: #00FF00;
+}
+#######
+body{
+     font-family: 'Roboto', sans-serif;  
+}
+
+h1{
+    color: #FFFF00;
+}
+
+.p1{
+    color: #0000FF;
+}
+
+.p2{
+    color: #00FF00;
+}
+
+####
+body{
+     font-family: 'Roboto', sans-serif;  
+}
+
+h1{
+    color: #FFAA00;
+}
+
+.p1{
+    color: #0000FF;
+}
+
+.p2{
+    color: #00FF00;
+}
+
+####
+body{
+     font-family: 'Roboto', sans-serif;  
+}
+
+h1{
+    color: #FF9700;
+}
+
+.p1{
+    color: #0000FF;
+}
+
+.p2{
+    color: #00FF00;
+}
+
+#######
+body{
+     font-family: 'Roboto', sans-serif;  
+}
+
+h1{
+    color: #FF00FF;
+}
+
+.p1{
+    color: #0000FF;
+}
+
+#########
+body{
+     font-family: 'Roboto', sans-serif;  
+}
+
+h1{
+    color: RGB(255,000,000); /* #FF0000 */
+}
+
+.p1{
+    color: color: RGB(000,000,125);
+}
+
+.p2{
+    color: #00FF00;
+}
+
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;
+     background-color: orange;  
+}
+
+h1{
+    color: RGB(255,000,000, 0.7);
+}
+
+.p1{
+    color: #0000FF;
+}
+
+.p2{
+    color: #00FF00;
+}
+########
+body{
+     font-family: 'Roboto', sans-serif;
+     background-color: orange;  
+}
+
+h1{
+    color: RGB(255,000,000, 0.7);
+}
+
+.p1{
+    color: #0000FF;
+}
+
+.p2{
+    color: #00FF00;
+}
+########
+body{
+     font-family: 'Roboto', sans-serif;
+     background-color: orange;  
+}
+
+h1{
+    color: RGBa(255,000,000, 0.5);
+}
+
+.p1{
+    color: #0000FF;
+    opacity: 0.5;
+}
+
+.p2{
+    color: #00FF00;
+}
+
+
+
+
+.p2{
+    color: #00FF00;
+}
+
+####################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+        <h1>Propriétés de type de text</h1>
+        <p class="p1">Un paragraphe</p> 
+        <p class="p2"> Un deuxième paragraphe</p>                       
+    </body>  
+</html>
+
+######
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+h1{
+    text-align: center;
+}
+
+.p1{
+    text-align: right;
+}
+#######
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.p1{
+    text-align: right;
+    text-transform: lowercase;
+}
+
+.p2{
+    text-transform: capitalize;
+}
+
+######
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.p1{
+    text-align: right;
+    text-transform: lowercase;
+}
+
+.p2{
+    text-transform: capitalize;
+}
+
+
+a{
+    text-decoration: none;
+}
+#######
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.p1{
+    text-align: right;
+    text-transform: lowercase;
+}
+
+.p2{
+    text-transform: capitalize;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+#########
+
+######
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.p1{
+    text-align: right;
+    text-transform: lowercase;
+    text-decoration: overline;
+}
+
+.p2{
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-indent: -100px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+########
+
+#####
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.p1{
+    text-align: right;
+    text-transform: lowercase;
+    text-decoration: overline;
+}
+
+.p2{
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-indent: 100px;
+}
+
+
+a{
+    text-decoration: none;
+}
+#####
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.p1{
+    text-transform: lowercase;
+    text-shadow: 1px 1px 4px #444;    
+}
+
+.p2{
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-shadow: -1px 1px 1px blue;
+}
+
+
+a{
+    text-decoration: none;
+}
+#######
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.p1{
+    text-transform: lowercase;
+    text-shadow: 3px 3px 3px #444;    
+}
+
+.p2{
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-shadow: -3px 3px 4px blue;
+}
+
+
+a{
+    text-decoration: none;
+}
+##########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.p1{
+    text-transform: lowercase;
+    text-shadow: 3px -3px 3px #444;    
+}
+
+.p2{
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-shadow: -3px 3px 4px blue;
+}
+
+
+a{
+    text-decoration: none;
+}
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 0px 0px 3px teal;
+}
+
+.p1{
+    text-transform: lowercase;
+    text-shadow: 3px -3px 3px #444;    
+}
+
+.p2{
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-shadow: -3px 3px 4px blue;
+}
+
+
+a{
+    text-decoration: none;
+}
+#######
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 0px 4px 3px teal;
+}
+
+.p1{
+    text-transform: lowercase;
+    text-shadow: 3px -3px 3px #444;    
+}
+
+.p2{
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-shadow: -3px 3px 4px blue;
+}
+
+
+a{
+    text-decoration: none;
+}
+###################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+        <h1>Propriétés de type de text</h1>
+        <p class="p1">Un premier <br>paragraphe</p> 
+        <p class="p2">Un deuxième <br>paragraphe</p>                                   
+    </body>  
+</html>
+
+########
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.p1{
+    line-height: 20px;   
+}
+
+.p2{
+    line-height: 35px;
+}
+###################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+        <h1>Propriétés de type de text</h1>
+        <p class="p1">Un premier paragraphe</p> 
+        <p class="p2">Un deuxième paragraphe</p>                                   
+    </body>  
+</html>
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.p1{
+    letter-spacing: 2px;
+    word-spacing: 10px;   
+}
+
+.p2{
+    letter-spacing: -20px;
+    text-align: right;
+}
+###################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <div class="div1"> 
+          <h1>Le modèle de boîtes</h1>
+          <p class="p1">Un premier paragraphe</p> 
+          <p class="p2">Un deuxième paragraphe</p>
+       </div>                                   
+    </body>  
+</html>
+##########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    background-color: #088;
+    width: 500px;
+    padding: 20px;
+    border: 20px solid #0C0;
+    margin: 50px;  
+}
+
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+}
+
+#######
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 50%;
+    background-color: #088;
+}
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+}
+
+.p1{
+    height: 100px;
+    width: 400px;
+    background-color: #FA0;
+}
+
+########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+}
+
+.p1{
+    height: 100px;
+    width: 400px;
+    padding : 60px;
+    background-color: #FA0;
+}
+
+############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: #FA0;
+}
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 5px solid black;
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    border-color: yellow;
+}
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: #FA0;
+    border-width: 2px;
+    border-style:dashed ;
+    border-color: yellow;
+}
+
+##########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border-bottom: 20px ridge black;
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-width: 2px;
+    border-style:dashed ;
+    border-color: yellow;
+}
+########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border-bottom: 20px ridge black;
+    border-right: 10px groove black;
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-width: 2px;
+    border-style:dashed ;
+    border-color: yellow;
+}
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border-bottom: 20px ridge black;
+    border-right: 10px groove black;
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-top-width: 2px;
+    border-top-style:dashed ;
+    border-top-color: yellow;
+}
+
+########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-top-width: 2px;
+    border-top-style:dashed ;
+    border-top-color: yellow;
+}
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-width: 2px;
+    border-style:dashed ;
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+}
+
+############
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;
+    padding: 40px;
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-width: 2px;
+    border-style:dashed ;
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+}
+
+##########
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;
+    padding: 140px;
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-width: 2px;
+    border-style:dashed ;
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+}
+
+##########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;
+    padding: 40px;
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-width: 2px;
+    border-style:dashed ;
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+
+#####
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;
+    padding: 100px 20px 50px 130px;
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-width: 2px;
+    border-style:dashed ;
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+
+#######
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;
+    padding: 100px 250px;
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-width: 2px;
+    border-style:dashed ;
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+    padding-top: 120px;
+    paddin-left: 20px;
+}
+
+#######
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;
+    padding: 100px 250px;
+    margin: 100px; 
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-width: 2px;
+    border-style:dashed ;
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;    
+    margin: 100px; 
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-width: 2px;
+    border-style: inset;    
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+    padding-top: 120px;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;    
+    margin: 100px 100px 50px 200px; 
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-width: 2px;
+    border-style: inset;    
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+    padding-top: 120px;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+
+###########
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;    
+    margin: 100px 50px; 
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    border-width: 2px;
+    border-style: inset;    
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+    padding-top: 120px;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+
+##########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;    
+    margin: 100px 50px; 
+}
+
+.p1{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    border-width: 2px;
+    border-style: inset;    
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+    padding-top: 120px;
+    padding-left: 50px;
+    margin: 0px auto;
+}
+
+########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;    
+    margin: 100px auto; 
+}
+
+.p1{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    border-width: 2px;
+    border-style: inset;    
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+    padding-top: 120px;
+    padding-left: 50px;
+    margin: 0px auto;
+}
+
+########
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;    
+    box-shadow: 5px 5px 10px orange;
+}
+
+.p1{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    border-width: 2px;
+    border-style: inset;    
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+    padding-top: 120px;
+    padding-left: 50px;
+    margin: 0px auto;
+}
+
+########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;    
+    box-shadow: -5px -5px 10px orange;
+}
+
+.p1{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    border-width: 2px;
+    border-style: inset;    
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+    padding-top: 120px;
+    padding-left: 50px;
+    margin: 0px auto;
+}
+
+########
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radus:15px;    
+    box-shadow: -5px -5px 10px orange;
+}
+
+.p1{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    border-width: 2px;
+    border-style: inset;    
+    border-color: yellow;
+    border-top-left-radus: 5px;
+    border-top-right-radus: 5px;
+    box-shadow: 4px 3px 7px black inset;
+}
+
+##########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+p{
+   display: inline;
+   border: 1px solid black;
+   
+}
+
+
+#######
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <div class="div1"> 
+          <h1>Le modèle <span>des boîtes</span></h1>
+          <p class="p1">Un premier paragraphe</p> 
+          <p class="p2">Un deuxième paragraphe</p>
+       </div>                                   
+    </body>  
+</html>
+########
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+p{
+   display: inline;
+   border: 1px solid black;
+   
+}
+
+span{
+  border: 1px solid black;
+   
+}
+
+########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+p{
+   display: inline;
+   border: 1px solid black;
+   
+}
+
+span{
+     border: 1px solid black;
+     display: block;
+}
+
+###############################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <div class="div1"> 
+          <h1>Le modèle des boîtes</h1>
+          <p class="p1">Un premier paragraphe</p> 
+          <p class="p2">Un deuxième paragraphe</p>
+       </div>                                   
+    </body>  
+</html>
+
+#######
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+p{
+   border: 1px solid black;   
+}
+
+.p1{    
+   display: inline-block;
+}
+  
+.p2{    
+   display: inline-block;
+}
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+p{
+   border: 1px solid black;   
+}
+
+.p1{    
+   display: inline-block;
+   width: 65%;
+}
+  
+.p2{    
+   display: inline-block;
+   width: 30%;
+}
+
+############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+p{
+   border: 1px solid black;   
+}
+
+.p1{    
+   display: inline-block;
+   width: 65%;
+}
+  
+.p2{    
+   display: none;
+   width: 30%;
+}
+  
+#############
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+h1{    
+   display: none;
+  }
+  
+
+p{
+   border: 1px solid black;   
+}
+
+.p1{    
+   display: inline-block;
+   width: 65%;
+}
+  
+.p2{    
+   display: none;
+   width: 30%;
+}
+  
+########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+  }
+  
+
+.p1{    
+     position: static;
+     top: 150px;
+  }
+
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+  }
+  
+
+.p1{    
+    top: 150px;
+  }
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+  }
+  
+
+.p1{
+    position:relative;     
+    left: 150px;
+  }
+
+###########
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <div class="div1"> 
+          <h1>Le modèle des boîtes</h1>
+          <p class="p1">Un premier paragraphe</p> 
+          <p class="p2">Un deuxième paragraphe</p>
+          <p>Début<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+          <p>Fin<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+       </div>                                   
+    </body>  
+</html>
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+  }
+  
+
+h1{
+    position:fixed;     
+    
+  }
+  
+.p1{
+    position:relative;     
+    left: 150px;
+  }
+##########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+     position:relative;
+  }
+  
+
+h1{
+    position:absolute;
+    bottom: 0px;
+    right: 0px;     
+  }
+  
+.p1{
+    position:relative;     
+    left: 150px;
+  }
+  
+###################################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <div class="div1"> 
+          <h1>Le modèle des boîtes</h1>
+          <p class="p1">Un premier paragraphe</p> 
+          <p class="p2">Un deuxième paragraphe</p>          
+       </div>                                   
+    </body>  
+</html>  
+##########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+     position:relative;
+     width:500px;
+     height: 400px;
+  }
+  
+
+h1{
+    position:absolute;
+    bottom: 0px;
+    right: 0px;     
+  }
+  
+.p1{
+    position:relative;     
+    left: 150px;
+  }
+#################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Le modèle des boîtes</h1>
+       <div class="div1">           
+          <p class="p1">Un premier paragraphe</p> 
+          <p class="p2">Un deuxième paragraphe</p>          
+       </div>                                   
+    </body>  
+</html> 
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+     position:fixed;
+     top:50px;
+     left: 100px; 
+     width:500px;
+     height: 400px;
+  }
+  
+
+h1{
+    position:absolute;
+    top:10px;
+    left: 130px;     
+  }
+
+##########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+     position:fixed;
+     top:50px;
+     left: 100px; 
+     width:500px;
+     height: 400px;
+     z-index:100;
+  }
+  
+
+h1{
+    position:absolute;
+    top:10px;
+    left: 130px;
+    z-index:1000;     
+  }
+
+ .p1{
+    position:relative;     
+    left: 150px;
+  }
+   
+
+########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+     width:500px;
+     height: 400px;
+     z-index:100;
+     float:right;
+  }
+  
+
+h1{
+    z-index:1000;
+    float:left;     
+  }
+
+ .p1{
+    position:relative;    
+    left: 150px;    
+  }
+
+##############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+     width:500px;
+     height: 400px;
+     z-index:100;
+     float:right;
+  }
+  
+
+h1{
+    z-index:1000;
+    float:left;     
+  }
+
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+     width:500px;
+     height: 400px;
+     z-index:100;
+     float:right;
+  }
+  
+
+h1{
+    z-index:1000;
+    float:left;     
+  }
+
+ .p1{
+    left: 150px;
+    float: right;
+  }
+
+.p2{
+    clear: right;
+  }
+ 
+############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+     width:500px;
+     height: 400px;
+     z-index:100;
+     float:right;
+  }
+  
+
+h1{
+    z-index:1000;
+    float:left;     
+  }
+
+ .p1{
+    left: 150px;
+    float: right;
+  }
+
+.p2{
+    clear: both;
+  }
+ 
+############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+     width:500px;
+     height: 400px;
+     z-index:100;
+     float:right;
+
+     clear:left;  
+  }
+  
+
+h1{
+    z-index:1000;
+    float:left;     
+  }
+
+ .p1{
+    left: 150px;
+    float: right;
+  }
+
+.p2{
+    clear: both;
+  }
+
+###################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Le modèle des boîtes</h1>
+       <div class="div1">           
+          <p class="p1">Un premier paragraphe <br>avec beaucoup de </br>contenu</p> 
+          <p class="p2">Un deuxième paragraphe</p>          
+       </div>                                   
+    </body>  
+</html> 
+
+#############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+     width:200px;
+     height: 50px;
+     z-index:100;
+     float:right;
+     clear:left;
+     overflow: hidden;  
+  }
+  
+
+h1{
+    z-index:1000;
+    float:left;     
+  }
+
+ .p1{
+    left: 150px;
+    float: right;
+  }
+
+.p2{
+    clear: both;
+  }
+
+############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+     width:200px;
+     height: 50px;
+     z-index:100;
+     float:right;
+     clear:left;
+     overflow: scroll;  
+  }
+  
+
+h1{
+    z-index:1000;
+    float:left;     
+  }
+
+ .p1{
+    left: 150px;
+    float: right;
+  }
+
+.p2{
+    clear: both;
+  }
+  
+#######
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+     width:200px;
+     height: 50px;
+     z-index:100;
+     float:right;
+     clear:left;
+     overflow: auto;  
+  }
+  
+
+h1{
+    z-index:1000;
+    float:left;     
+  }
+
+ .p1{
+    left: 150px;
+    float: right;
+  }
+
+.p2{
+    clear: both;
+  }
+  
+############
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les bases en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Le modèle des boîtes</h1>
+       <div class="div1">           
+          <p class="p1">Un premier paragraphe avec beaucoup de contenu</p> 
+          <p class="p2">Un deuxième paragraphe</p>          
+       </div>                                   
+    </body>  
+</html> 
+
+########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+     width:400px;
+     height: 200px;
+     margin: 0px auto;      
+  }
+
+
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;
+     margin:0px;
+     padding: 0px;       
+}
+
+
+.div1{    
+     background-color: orange;
+     width:400px;
+     height: 200px;
+     position: absolute;
+     left: 100px;      
+  }
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;
+     margin:0px;
+     padding: 0px;       
+}
+
+
+.div1{    
+     background-color: orange;
+     height: 200px;
+     position: absolute;
+     
+     left: 30%;
+     right:30%;      
+  }
+
+##########
+
+body{
+     font-family: 'Roboto', sans-serif;
+     margin:0px;
+     padding: 0px;       
+}
+
+
+.div1{    
+     background-color: orange;
+     width:400px; 
+     height: 200px;
+     float: left;    
+  }
+
+h1{    
+    float: left;    
+  }
+
+#######
+
+body{
+     font-family: 'Roboto', sans-serif;
+     margin:0px;
+     padding: 0px;       
+}
+
+
+.div1{    
+     background-color: orange;
+     width:400px; 
+     height: 200px;
+     float: left;
+     
+     text-align:center;    
+  }
+
+h1{    
+    float: left;    
+  }
+
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background-color: orange;
+     width:200px;
+     height: 50px;
+     z-index:100;
+     float:right;
+
+     clear:left;  
+  }
+  
+
+h1{
+    z-index:1000;
+    float:left;     
+  }
+
+ .p1{
+    left: 150px;
+    float: right;
+  }
+
+.p2{
+    clear: both;
+  }
+ 
+
+###################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Gestion du fond en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Gestion du fond en CSS</h1>
+       <div class="div1">           
+          <p class="p1">Un premier paragraphe</p> 
+          <p class="p2">Un deuxième paragraphe</p>          
+       </div>                                   
+    </body>  
+</html>
+ 
+#######
+
+body{
+     font-family: 'Roboto', sans-serif;
+     background-color: purple;  
+}
+
+#######
+
+body{
+     font-family: 'Roboto', sans-serif;
+     background-color: purple;  
+}
+
+h1{
+     background-color: #069;  
+}  
+
+#######
+
+
+body{
+     font-family: 'Roboto', sans-serif;
+     background-color: purple;  
+}
+
+h1{
+     background-color: #069;  
+}
+
+.div1{
+     background-color: RGBa(200,200,000,0.2);  
+}  
+
+
+#######
+
+
+body{
+     font-family: 'Roboto', sans-serif;
+     background-color: purple;  
+}
+
+h1{
+     background-color: #069;  
+}
+
+.div1{
+     background-color: RGBa(200,200,000,0.9);  
+}  
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;
+     background-image: url("china.jpg");  
+}
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;
+     background-image: url("china.jpg");
+     background-size: 25%;   
+}
+
+######
+
+body{
+     font-family: 'Roboto', sans-serif;
+     background-image: url("china.jpg");
+     background-size: 25%;
+     
+     background-repeat:no-repeat;   
+}  
+
+########
+
+body{
+     font-family: 'Roboto', sans-serif;
+     background-image: url("china.jpg");
+     background-size: 25%;
+     
+     background-repeat:repeat-x;   
+}
+#####
+body{
+     font-family: 'Roboto', sans-serif;
+     background-image: url("china.jpg");
+     background-size: 25%;
+     
+     background-repeat:repeat-y;   
+}
+
+###################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Gestion du fond en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Gestion du fond en CSS</h1>
+       <div class="div1">           
+          <p class="p1">Un premier paragraphe</p>
+          <p>D<br><br><br><br>e<br><br><br><br>s<br><br><br><br></p>
+          <p>D<br><br><br><br>e<br><br><br><br>s<br><br><br><br></p>
+          <p>D<br><br><br><br>e<br><br><br><br>s<br><br><br><br></p>   
+          <p class="p2">Un deuxième paragraphe</p>          
+       </div>                                   
+    </body>  
+</html>
+
+#######
+
+body{
+     font-family: 'Roboto', sans-serif;
+     background-image: url("china.jpg");
+     background-size: 25%;
+     background-repeat:no-repeat;
+     background-attachment:fixed; 
+}
+
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;
+     background-image: url("china.jpg");
+     background-size: 25%;
+     background-repeat:no-repeat;
+     background-attachment:scroll; 
+} 
+
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;
+     background-image: url("china.jpg");
+     background-size: 25%;
+     background-repeat:no-repeat;
+     background-position:top right; 
+}
+
+######
+
+body{
+     font-family: 'Roboto', sans-serif;
+     background-image: url("china.jpg");
+     background-size: 25%;
+     background-repeat:no-repeat;
+     background-position: 50px 400px; 
+}
+
+#######
+body{
+     font-family: 'Roboto', sans-serif;
+     background-image: url("china.jpg"),url("facebook.png");
+     background-size: 25%, 50%;
+     background-repeat:no-repeat,no-repeat;;
+     background-position: top left,top right; 
+}
+#######
+
+body{
+     font-family: 'Roboto', sans-serif;
+     background-image: url("china.jpg"),url("facebook.png");
+     background-size: 25%, 50%;
+     background-repeat:no-repeat,no-repeat;;
+     }
+
+#########################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Gestion de font en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Gestion du CSS</h1>
+       <div class="div1">         
+          <p class="p1">Un premier paragraphe</p> 
+          <p class="p2">Un deuxième paragraphe</p>
+       </div>                                   
+    </body>  
+</html>
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background:webkit-linear-gradient(left, red, orange, blue);
+     background:-o-linear-gradient(right, red, orange, blue);
+     background:-moz-linear-gradient(right, red, orange, blue);
+     background:linear-gradient(to right, red, orange, blue);
+  }
+
+
+############
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background:-webkit-linear-gradient(to left, red, orange, blue);
+     background:-o-linear-gradient(bottom right, red, orange, blue);
+     background:-moz-linear-gradient(bottom right, red, orange, blue);
+     background:linear-gradient(to bottom right, red, orange, blue);
+  }
+  
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background:-webkit-linear-gradient(to left, red, orange, yellow, blue);
+     background:-o-linear-gradient(bottom right, red, orange, yellow, blue);
+     background:-moz-linear-gradient(bottom right, red, orange, yellow, blue);
+     background:linear-gradient(to bottom right, red, orange, yellow, blue);
+  }
+
+############
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background:-webkit-linear-gradient(to left, #A00, red, orange, yellow, blue);
+     background:-o-linear-gradient(bottom right, #A00,red, orange, yellow, blue);
+     background:-moz-linear-gradient(bottom right, #A00,red, orange, yellow, blue);
+     background:linear-gradient(to bottom right, #A00,red, orange, yellow, blue);
+  }
+
+############
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background:-webkit-linear-gradient(90deg, #A00, orange, yellow, blue);
+     background:-o-linear-gradient(90deg, #A00, orange, yellow, blue);
+     background:-moz-linear-gradient(90deg, #A00, orange, yellow, blue);
+     background:linear-gradient(90deg, #A00, orange, yellow, blue);
+  }
+  
+############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background:-webkit-linear-gradient(180deg, #A00, orange, yellow, blue);
+     background:-o-linear-gradient(180deg, #A00, orange, yellow, blue);
+     background:-moz-linear-gradient(180deg, #A00, orange, yellow, blue);
+     background:linear-gradient(180deg, #A00, orange, yellow, blue);
+  }
+  
+##########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{    
+     background:-webkit-linear-gradient(RGBa(255,000,000,0.8),RGBa(255,000,000,0.1));
+     background:-o-linear-gradient(RGBa(255,000,000,0.8),RGBa(255,000,000,0.1));
+     background:-moz-linear-gradient(RGBa(255,000,000,0.8),RGBa(255,000,000,0.1));
+     background:linear-gradient(RGBa(255,000,000,0.8),RGBa(255,000,000,0.1));
+  }
+
+#########################################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Gestion de font en CSS</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Gestion du CSS</h1>
+       <div class="div1">         
+          <p class="p1">Un premier paragraphe</p> 
+          <p class="p2">Un deuxième paragraphe</p>
+       </div>
+
+       <div class="div2">         
+          
+       </div> 
+                                       
+    </body>  
+</html>
+
+
+############
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{ 
+     float: left;
+     width: 400px;
+     height: 400px;
+   
+     background:-webkit-linear-gradient(left, blue, purple, red);
+     background:-o-linear-gradient(right, blue, purple, red);
+     background:-moz-linear-gradient(right, blue, purple, red);
+     background:linear-gradient(to right, blue, purple, red);
+}
+
+
+.div2{ 
+     float: right;
+     width: 400px;
+     height: 400px;
+   
+     background:-webkit-radial-gradient(circle, blue, purple, red);
+     background:-o-radial-gradient(circle, blue, purple, red);
+     background:-moz-radial-gradient(circle, blue, purple, red);
+     background:radial-gradient(circle, blue, purple, red);
+}
+ 
+ 
+############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{ 
+     float: left;
+     width: 400px;
+     height: 400px;
+   
+     background:-webkit-linear-gradient(left, blue 10%, purple 30%, red);
+     background:-o-linear-gradient(right, blue 10%, purple 30%, red);
+     background:-moz-linear-gradient(right, blue 10%, purple 30%, red);
+     background:linear-gradient(to right, blue 10%, purple 30%, red);
+}
+
+
+.div2{ 
+     float: right;
+     width: 400px;
+     height: 400px;
+   
+     background:-webkit-radial-gradient(circle, blue 10%, purple 30%, red);
+     background:-o-radial-gradient(circle, blue 10%, purple 30%, red);
+     background:-moz-radial-gradient(circle, blue 10%, purple 30%, red);
+     background:radial-gradient(circle, blue 10%, purple 30%, red);
+}
+    
+
+
+####################
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{ 
+     float: left;
+     width: 400px;
+     height: 400px;
+   
+     background:-webkit-linear-gradient(left, blue 10%, purple 30%, red 60%);
+     background:-o-linear-gradient(right, blue 10%, purple 30%, red 60%);
+     background:-moz-linear-gradient(right, blue 10%, purple 30%, red 60%);
+     background:linear-gradient(to right, blue 10%, purple 30%, red 60%);
+}
+
+
+.div2{ 
+     float: right;
+     width: 400px;
+     height: 400px;
+   
+     background:-webkit-radial-gradient(circle, blue 10%, purple 30%, red 60%);
+     background:-o-radial-gradient(circle, blue 10%, purple 30%, red 60%);
+     background:-moz-radial-gradient(circle, blue 10%, purple 30%, red 60%);
+     background:radial-gradient(circle, blue 10%, purple 30%, red 60%);
+}
+
+##########
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{ 
+     float: left;
+     width: 400px;
+     height: 400px;
+   
+     background:-webkit-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%, red 60%);
+     background:-o-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%, red 60%);
+     background:-moz-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%, red 60%);
+     background:radial-gradient(closest-side at 20% 40%, blue 10%, purple 30%, red 60%);
+}
+
+
+.div2{ 
+     float: right;
+     width: 400px;
+     height: 400px;
+   
+     background:-webkit-radial-gradient(20% 40%, farthest-side, blue 10%, purple 30%, red 60%);
+     background:-o-radial-gradient(20% 40%, farthest-side, blue 10%, purple 30%, red 60%);
+     background:-moz-radial-gradient(20% 40%, farthest-side, blue 10%, purple 30%, red 60%);
+     background:radial-gradient(farthest-side at 20% 40%, blue 10%, purple 30%, red 60%);
+}
+    
+############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{ 
+     float: left;
+     width: 400px;
+     height: 400px;
+   
+     background:-webkit-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%, red);
+     background:-o-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%, red);
+     background:-moz-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%, red);
+     background:radial-gradient(closest-side at 20% 40%, blue 10%, purple 30%, red);
+}
+
+
+.div2{ 
+     float: right;
+     width: 400px;
+     height: 400px;
+   
+     background:-webkit-radial-gradient(20% 40%, farthest-side, blue 10%, purple 30%, red 60%);
+     background:-o-radial-gradient(20% 40%, farthest-side, blue 10%, purple 30%, red 60%);
+     background:-moz-radial-gradient(20% 40%, farthest-side, blue 10%, purple 30%, red 60%);
+     background:radial-gradient(farthest-side at 20% 40%, blue 10%, purple 30%, red 60%);
+}
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{ 
+     float: left;
+     width: 400px;
+     height: 400px;
+   
+     background:-webkit-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%, red);
+     background:-o-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%, red);
+     background:-moz-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%, red);
+     background:radial-gradient(closest-side at 20% 40%, blue 10%, purple 30%, red);
+}
+
+
+.div2{ 
+     float: right;
+     width: 400px;
+     height: 400px;
+   
+     background:-webkit-radial-gradient(20% 40%, farthest-side, blue 10%, purple 30%, red);
+     background:-o-radial-gradient(20% 40%, farthest-side, blue 10%, purple 30%, red);
+     background:-moz-radial-gradient(20% 40%, farthest-side, blue 10%, purple 30%, red);
+     background:radial-gradient(farthest-side at 20% 40%, blue 10%, purple 30%, red);
+}
+  
+############
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+.div1{ 
+     float: left;
+     width: 400px;
+     height: 400px;
+   
+     background:-webkit-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%, red);
+     background:-o-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%, red);
+     background:-moz-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%, red);
+     background:radial-gradient(closest-side at 20% 40%, blue 10%, purple 30%, red);
+}
+
+
+.div2{ 
+     float: right;
+     width: 400px;
+     height: 400px;
+   
+     background:-webkit-radial-gradient(20% 40%, farthest-side, blue 10%, purple 80%, red);
+     background:-o-radial-gradient(20% 40%, farthest-side, blue 10%, purple 80%, red);
+     background:-moz-radial-gradient(20% 40%, farthest-side, blue 10%, purple 80%, red);
+     background:radial-gradient(farthest-side at 20% 40%, blue 10%, purple 80%, red);
+}
+      
+########################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les tableaux</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Les tableaux</h1>
+       <table> 
+           <tr>        
+              <td>Nom</td> 
+              <td>Prénom</td>
+              <td>Age</td> 
+           </tr>
+           <tr>        
+              <td>YOULA</td> 
+              <td>Mohamed</td>
+              <td>25</td> 
+           </tr>
+           <tr>        
+              <td>YOULA</td> 
+              <td>Sidiki</td>
+              <td>10</td> 
+           </tr>
+       </div>
+
+       <div class="div2">         
+          
+       </div> 
+                                       
+    </body>  
+</html>
+
+#######################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les tableaux</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Les tableaux</h1>
+       <table> 
+           <tr>        
+              <td>Nom</td> 
+              <td>Prénom</td>
+              <td>Age</td> 
+           </tr>
+           <tr>        
+              <td>YOULA</td> 
+              <td>Mohamed</td>
+              <td>25</td> 
+           </tr>
+           <tr>        
+              <td>YOULA</td> 
+              <td>Sidiki</td>
+              <td>10</td> 
+           </tr>
+       </div>
+
+       <div class="div2">         
+          
+       </div> 
+                                       
+    </body>  
+</html>
+
+#############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+td{
+   border: 1px solid black; 
+}
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+table{
+     border-collapse: collapse;
+}
+
+td{
+   border: 1px solid black; 
+}
+
+#############
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+table{
+     border-collapse: collapse;
+}
+
+td{
+   border: 1px solid black;
+   padding: 10px;	 
+}
+
+.paire{
+      background-color: orange; 
+}
+
+.impaire{
+      background-color: #069; 
+}
+
+#############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+table{
+     border-collapse: collapse;
+}
+
+td{
+   border: 1px solid black;
+   padding: 10px;	 
+}
+
+tr:nth-child(even){
+      background-color: orange; 
+}
+
+tr:nth-child(odd){
+      background-color: blue; 
+}
+
+
+########################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les tableaux</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Les tableaux</h1>
+       <table> 
+           <tr>        
+              <th>Nom</th> 
+              <th>Prénom</th>
+              <th>Age</th> 
+           </tr>
+           <trclass="paire">        
+              <td>YOULA</td> 
+              <td>Mohamedd</td>
+              <td>25</td> 
+           </tr>
+           <tr class="impaire">        
+              <td>YOULA</td> 
+              <td>Sidiki</td>
+              <td>10</td> 
+           </tr>
+       </div>
+
+       <div class="div2">         
+          
+       </div> 
+                                       
+    </body>  
+</html>
+
+##################
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+table{
+     border-collapse: collapse;
+}
+
+td, th{
+   border: 1px solid black;
+   padding: 10px;	 
+}
+
+th{
+   background-color: RGB(110, 200, 40); 
+}
+
+tr:nth-child(even){
+      background-color: orange; 
+}
+
+tr:nth-child(odd){
+      background-color: blue; 
+}
+
+
+##################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les tableaux</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Les tableaux</h1>
+       <table> 
+           <thead>        
+              <tr> 
+                 <th>Mois</th>
+                 <th>Dépense</th> 
+              </tr>
+           </thead> 
+           <tfoot>
+                <tr> 
+                   <td>SOMME</td>
+                   <td>1350 euros</td>
+                </tr> 
+           </tfoot>
+           <tbody>
+               <tr> 
+                   <td>Javier</td>
+                   <td>450 euros</td>
+               </tr>
+               <tr> 
+                   <td>Mars</td>
+                   <td>380 euros </td>
+               </tr>              
+           </tbody>
+       </table>
+    </body>  
+</html>
+
+###################
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+
+thead, tfoot{
+     background-color: RGB(110, 200, 40);
+     color: #FFF;
+     text-transform: uppercase;
+}
+
+td, th{
+   border: 1px solid black;
+   padding: 10px;	 
+}
+
+th{
+   font-weight: normal; 
+}
+
+tr:nth-child(even){
+      background-color: #EEE; 
+}
+
+tr:nth-child(odd){
+      background-color: #CCC; 
+}
+
+
+
+######################
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+
+thead th, tfoot td{
+     background-color: RGB(110, 200, 40);
+     color: #FFF;
+     text-transform: uppercase;
+}
+
+td, th{
+   border: 1px solid black;
+   padding: 10px;	 
+}
+
+th{
+   font-weight: normal; 
+}
+
+tr:nth-child(even){
+      background-color: #EEE; 
+}
+
+tr:nth-child(odd){
+      background-color: #CCC; 
+}
+
+#####################################################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les tableaux</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Les tableaux</h1>
+       <table> 
+           <tr> 
+               <th>Prénom</th>
+               <th>Adress email</th> 
+           </tr>
+           <tr> 
+               <td>Mohamed</td>
+               <td>m.youla@yahoo.fr</td>
+           </tr>
+           <tr> 
+               <td>Pierre</td>
+               <td>pierre.giroudadhec.com</td>
+           </tr>   
+       </table>
+    </body>  
+</html>
+
+############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+
+table{
+     border-collapse: collapse; 
+}
+
+td, th{
+   border: 1px solid black;
+   padding: 10px;	 
+}
+####################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les tableaux</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Les tableaux</h1>
+       <table> 
+           <tr> 
+               <th>Prénom</th>
+               <th>Adress email</th> 
+           </tr>
+           <tr> 
+               <td>Mohamed</td>
+               <td>Victor</td>
+               <td>m.youla@yahoo.fr</td>
+           </tr>
+           <tr> 
+               <td>Pierre</td>
+               <td>Jullia</td>
+               <td>Jeanne</td>
+               <td>pierre.giroudadhec.com</td>
+           </tr>   
+       </table>
+    </body>  
+</html>
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+
+table{
+     border-collapse: collapse; 
+}
+
+td, th{
+   border: 1px solid black;
+   padding: 10px;	 
+}
+
+
+
+
+############################################################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les tableaux</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Les tableaux</h1>
+       <table> 
+           <tr> 
+               <th colspan="3">Prénom</th>
+               <th>Adress email</th> 
+           </tr>
+           <tr> 
+               <td>Mohamed</td>
+               <td colspan="2">Victor</td>
+               <td>m.youla@yahoo.fr</td>
+           </tr>
+           <tr> 
+               <td>Pierre</td>
+               <td>Jullia</td>
+               <td>Jeanne</td>
+               <td>pierre.giroudadhec.com</td>
+           </tr>   
+       </table>
+    </body>  
+</html>
+
+
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+
+table{
+     border-collapse: collapse; 
+}
+
+td, th{
+   border: 1px solid black;
+   padding: 10px;	 
+}
+
+
+#################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les tableaux</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Les tableaux</h1>
+       <table> 
+           <tr> 
+               <th colspan="3">Prénom</th>
+               <th>Adress email</th> 
+           </tr>
+           <tr> 
+               <td>Mohamed</td>
+               <td colspan="2">Victor</td>
+               <td>m.youla@yahoo.fr</td>
+           </tr>
+           <tr> 
+               <td>Pierre</td>
+               <td>Jullia</td>
+               <td>Jeanne</td>
+               <td>pierre.giroudadhec.com</td>
+               <td>p.joly@gmail.com</td>
+           </tr>   
+       </table>
+    </body>  
+</html>
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+
+table{
+     border-collapse: collapse; 
+}
+
+td, th{
+   border: 1px solid black;
+   padding: 10px;	 
+}
+
+#################################################################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les tableaux</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Les tableaux</h1>
+       <table> 
+           <tr> 
+               <th colspan="3">Prénom</th>
+               <th colspan="2">Adress email</th> 
+           </tr>
+           <tr> 
+               <td>Mohamed</td>
+               <td colspan="2">Victor</td>
+               <td colspan="2">m.youla@yahoo.fr</td>
+           </tr>
+           <tr> 
+               <td>Pierre</td>
+               <td>Jullia</td>
+               <td>Jeanne</td>
+               <td>pierre.giroudadhec.com</td>
+               <td>p.joly@gmail.com</td>
+           </tr>   
+       </table>
+    </body>  
+</html>
+
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+
+table{
+     border-collapse: collapse; 
+}
+
+td, th{
+   border: 1px solid black;
+   padding: 10px;	 
+}
+
+#################################################################################################################
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les tableaux</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Les tableaux</h1>
+       <table> 
+           <tr> 
+               <th>Prénom</th>
+               <th>Adress email</th> 
+           </tr>
+           <tr> 
+               <td>Mohamed</td>               
+               <td>m.youla@yahoo.fr</td>
+           </tr>
+           <tr> 
+               <td>Mohamed</td>               
+               <td>m_youla@yahoo.fr</td>
+           </tr>
+           <tr> 
+               <td>Pierre</td>               
+               <td>pierre.giroudadhec.com</td>              
+           </tr>   
+       </table>
+    </body>  
+</html>
+
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+
+table{
+     border-collapse: collapse; 
+}
+
+td, th{
+   border: 1px solid black;
+   padding: 10px;	 
+}
+
+
+#################################################################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les tableaux</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Les tableaux</h1>
+       <table> 
+           <tr> 
+               <th>Prénom</th>
+               <th>Adress email</th> 
+           </tr>
+           <tr> 
+               <td rowspan="2">Mohamed</td>               
+               <td>m.youla@yahoo.fr</td>
+           </tr>
+           <tr>                            
+               <td>m_youla@yahoo.fr</td>
+           </tr>
+           <tr> 
+               <td>Pierre</td>               
+               <td>pierre.giroudadhec.com</td>              
+           </tr>   
+       </table>
+    </body>  
+</html>
+
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+
+table{
+     border-collapse: collapse; 
+}
+
+td, th{
+   border: 1px solid black;
+   padding: 10px;	 
+}
+
+################################################################################################################
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les tableaux</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Les tableaux</h1>
+       <table>
+           <caption>Liste des inscrits</caption>
+           <tr> 
+               <th>Prénom</th>
+               <th>Adress email</th> 
+           </tr>
+           <tr> 
+               <td rowspan="2">Mohamed</td>               
+               <td>m.youla@yahoo.fr</td>
+           </tr>
+           <tr>                            
+               <td>m_youla@yahoo.fr</td>
+           </tr>
+           <tr> 
+               <td>Pierre</td>               
+               <td>pierre.giroudadhec.com</td>              
+           </tr>   
+       </table>
+    </body>  
+</html>
+
+
+###########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+
+table{
+     border-collapse: collapse; 
+}
+
+td, th{
+   border: 1px solid black;
+   padding: 10px;	 
+}
+
+#############
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Média</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Média</h1>
+       <img src="china.jpg" alt="Une belle maison" >
+    </body>  
+</html>
+
+#################################################################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Média</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Média</h1>
+       <img src="china.jpg" alt="Une belle maison" >
+    </body>  
+</html>
+
+###########
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+img{
+     width: 400px; 
+}
+
+
+#################################################################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Média</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Média</h1>
+       <img src="china.jpg" alt="Une belle maison" >
+       <img src="china.jpg" alt="Une belle maison" >
+    </body>  
+</html>
+
+
+###########
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+img{
+     width: 400px; 
+}
+
+#################################################################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Média</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Média</h1>
+       <div><img src="china.jpg" alt="Une belle maison"></div>
+       <img src="china.jpg" alt="Une belle maison" >
+    </body>  
+</html>
+
+
+###########
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+img{
+     width: 400px; 
+}
+
+
+#################################################################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Média</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Média</h1>
+       <p><img src="china.jpg" alt="Une belle maison"></p>
+       <img src="china.jpg" alt="Une belle maison" >
+    </body>  
+</html>
+
+###########
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+img{
+     width: 400px; 
+}
+
+
+################################################################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Média</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Média</h1>
+       <p><img src="china.jpg" alt="Une belle maison"></p>
+       <img src="china.jpg" alt="Une belle maison" >
+    </body>  
+</html>
+
+
+#############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+
+img{
+     width: 400px; 
+     display: block
+}
+
+##############
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+
+img{
+     width: 400px; 
+     float: left;
+}
+
+#############
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+
+img{
+     width: 400px; 
+     float: left;
+     clear: left;
+}
+
+
+################################################################################################################
+
+
+
+!DOCTYPE html>
+<html>
+    <head>
+      <title>Média</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Média</h1>
+       <img src="china.jpg" alt="Une belle maison">       
+    </body>  
+</html>
+
+############
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+
+img{
+     padding:10px; 
+     border: 1px solid #CCC;
+     box-shadow: 0px 0px 17px #BBB;
+}
+
+
+
+#################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Média</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Média</h1>
+       <audio controls="controls">
+          <source src="Oh Jah - Takana Zion.mp3">         
+    </body>  
+</html>
+
+##################################################################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Média</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Média</h1>
+       <audio controls="controls" loop="loop" autoplay="autoplay">
+          <source src="Oh Jah - Takana Zion.mp3">
+          <source src="Oh Jah - Takana Zion.ogg">          
+    </body>  
+</html>
+
+
+###################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Média</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Média</h1>
+       <video controls="controls">
+          <source src="Davido, Focalistic - Champion Sound (Official Video).mp4">
+          Il serait temps de mettre votre navigateur à jour                    
+    </body>  
+</html>
+
+
+###################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Média</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <h1>Média</h1>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/8FqZZrbnwkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>               
+    </body>  
+</html>
+###############################################################################################################################################################################################
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+       <div class="div1"> 
+          <h1>CSS Avancé</h1>
+          <p>Un paragraphe</p>          
+       </div>                                   
+    </body>  
+</html>
+
+
+############
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+*{    
+  border: 1px solid black;   
+}
+
+############
+
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+h1,p{    
+  border: 1px solid black;   
+}
+
+##########################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <h1>CSS Avancé</h1>
+          <p>Un paragraphe</p>
+          <p>Un autre paragraphe</p>
+
+          <div>    
+              <p>Paragraphe dans mon div</p>
+              <p>Deuxième paragraphe</p>
+              <h2>Je suis un titre h2</h2>     
+          </div>                                   
+    </body>  
+</html>
+############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+div p{    
+      color: blue;   
+}
+ 
+###########
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+body p{    
+      color: blue;   
+}
+############
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+div + p{    
+      color: blue;   
+}
+##########################################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <h1>CSS Avancé</h1>
+          <p>Un paragraphe</p>
+          <p>Un autre paragraphe</p>
+
+          <div>    
+              <p>Paragraphe dans mon div</p>
+              <p>Deuxième paragraphe</p>
+              <h2>Je suis un titre h2</h2>     
+          </div>
+          <p>Un autre paragraphe</p>
+          <p>Un dernier paragraphe</p>                                    
+    </body>  
+</html>
+
+##########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+div + p{    
+      color: blue;   
+}
+
+#########
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <h1>CSS Avancé</h1>
+          <p>Un paragraphe</p>
+          <div></div>
+          <p>Un autre paragraphe</p>
+
+          <div>    
+              <p>Paragraphe dans mon div</p>
+              <p>Deuxième paragraphe</p>
+              <h2>Je suis un titre h2</h2>     
+          </div>
+          <p>Un autre paragraphe</p>
+          <p>Un dernier paragraphe</p>                                    
+    </body>  
+</html>
+
+########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+div + p{    
+      color: blue;   
+}
+
+###########
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <h1>CSS Avancé</h1>
+          <h2>Un premier titre h2</h2>
+          <p>Un paragraphe</p>
+          <div>
+            <p>Un paragraphe de plus</p>
+            <h2>Titre h2</h2> 
+          </div>
+          <p>Un autre paragraphe</p>
+
+          <div>    
+              <p>Paragraphe dans mon div</p>
+              <p>Deuxième paragraphe</p>
+              <h2>Je suis un titre h2</h2>     
+          </div>
+          <p>Un autre paragraphe</p>
+          <p>Un dernier paragraphe</p>                                    
+    </body>  
+</html>
+
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+div > h2{    
+      color: blue;   
+}
+  
+#########
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+div > p{    
+      color: blue;   
+}
+
+##########################################################################################
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <h1>CSS Avancé</h1>
+          <h2>Un premier titre h2</h2>
+          <p>Un paragraphe</p>
+
+          <div class="div1">
+
+            <p>Un paragraphe de plus</p>
+            <h2>Titre h2</h2> 
+          </div>
+          <p>Un autre paragraphe</p>
+
+          <div>    
+              <p>Paragraphe dans mon div</p>
+              <p>Deuxième paragraphe</p>
+              <h2>Je suis un titre h2</h2>     
+          </div>
+          <p>Un autre paragraphe</p>
+          <p>Un dernier paragraphe</p>                                    
+    </body>  
+</html>
+
+##############
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+div > p{    
+      color: blue;   
+}
+
+#############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+div[class]{    
+      border: 1px solid black;   
+}
+
+#########################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <h1>CSS Avancé</h1>
+          <h2>Un premier titre h2</h2>
+          <p>Un paragraphe</p>
+
+          <div class="div1">
+
+            <p>Un paragraphe de plus</p>
+            <h2>Titre h2</h2> 
+          </div>
+          <p>Un autre paragraphe</p>
+
+          <div class="div2">    
+              <p>Paragraphe dans mon div</p>
+              <p>Deuxième paragraphe</p>
+              <h2>Je suis un titre h2</h2>     
+          </div>
+          <p>Un autre paragraphe</p>
+          <p>Un dernier paragraphe</p>                                    
+    </body>  
+</html>
+
+##############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+div[class]{    
+      border: 1px solid black;   
+}
+  
+##############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+div[class="div1"]{    
+      border: 1px solid black;   
+}
+  
+##########################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <h1>CSS Avancé</h1>
+          <h2>Un premier titre h2</h2>
+          <p>Un paragraphe</p>
+
+          <div class="div1">
+
+            <p>Un paragraphe de plus</p>
+            <h2>Titre h2</h2> 
+          </div>
+          <p>Un autre paragraphe</p>
+
+          <div class="div1">    
+              <p>Paragraphe dans mon div</p>
+              <p>Deuxième paragraphe</p>
+              <h2>Je suis un titre h2</h2>     
+          </div>
+          <p>Un autre paragraphe</p>
+          <p>Un dernier paragraphe</p>                                    
+    </body>  
+</html>
+
+
+#################
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+div[class="div1"]{    
+      border: 1px solid black;   
+}
+
+##########################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <h1>CSS Avancé</h1>
+          <h2>Un premier titre h2</h2>
+          <p>Un paragraphe</p>
+          <p>Un lien vers mon <a href="http://pierre-giraud.com">site</a>.</p>                                 
+    </body>  
+</html>
+
+
+##############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+h1:hover{    
+      color:orange;   
+}
+  
+a:link{    
+      color:blue;   
+}
+
+a:visited{    
+      color:green;   
+}
+
+##########################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <h1>CSS Avancé</h1>
+          <h2>Un premier titre h2</h2>
+          <p>Un paragraphe</p>
+          <p>Un lien vers mon <a href="http://pierre-giraud.com">site</a>.</p>
+          <div>
+               <p>P1</p>
+               <p>P2</p>
+               <p>P3</p>
+          </div>
+          <p>En dehor du div</p>                                 
+    </body>  
+</html>
+
+#############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+p:first-child{    
+      color:orange;   
+}
+  
+
+p:last-child{    
+      color:green;   
+}
+
+###########"
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+p:nth-child(even){    
+      color:purple;   
+}
+
+############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+p:nth-child(3){    
+      color:purple;   
+}
+
+#############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+h2:nth-child(2){    
+      color:purple;   
+}
+
+##########################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <h1>CSS Avancé</h1>
+          <h2>Un premier titre h2</h2>
+          <p>Un paragraphe</p>
+          <p>Un lien vers mon <a href="http://pierre-giraud.com">site</a>.</p>
+          <div>
+               <p>P1</p>
+               <h2p>Autre titre h2</h2>
+               <p>P2</p>
+               <p>P3</p>
+          </div>
+          <p>En dehor du div</p>                                 
+    </body>  
+</html>
+
+#################
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+h2:nth-child(2){    
+      color:purple;   
+}
+
+##########################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <div>
+               <p>Unpremier paragraphe</p>
+               <h2p>Ceci est le deuxième paragraphe</h2>
+               <p>Et voilà un troisième paragraphe</p>               
+          </div>
+          <p>Un paragraphe hors div</p>                                 
+    </body>  
+</html>
+
+#############
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <div>
+               <p>Unpremier paragraphe</p>
+               <p>Ceci est le deuxième paragraphe</p>
+               <p>Et voilà un troisième paragraphe</p>               
+          </div>
+          <p>Un paragraphe hors div</p>                                 
+    </body>  
+</html>
+#############
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+p::first-letter{    
+      font-size:30px;
+      color: #A92;   
+}
+
+#########################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <div>
+               <p>Unpremier
+                paragraphe</p>
+               <p>Ceci est <br>le deuxième<br> paragraphe</p>
+               <p>Et voilà un troisième paragraphe</p>               
+          </div>
+          <p>Un paragraphe hors div</p>                                 
+    </body>  
+</html>
+  
+############
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+p::first-letter{    
+      font-size:30px;
+      color: #A92;   
+}
+############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+p::first-line{    
+      font-size:30px;
+      color: #A92;   
+}
+
+##########################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <div>
+               <p>Unpremier paragraphe</p>
+               <p>Ceci est le deuxième paragraphe</p>
+               <p>Et voilà un troisième paragraphe</p>               
+          </div>
+          <p>Un paragraphe hors div</p>                                 
+    </body>  
+</html>
+
+###############
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+p::-moz-selection{    
+      background-color:orange;
+        
+}
+
+p::selection{    
+      background-color:orange;
+        
+}
+
+#########################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <div>
+               <p>Unpremier paragraphe</p>
+               <p>Ceci est le deuxième paragraphe</p>
+               <p>Et voilà un troisième paragraphe</p>               
+          </div>
+          <p>Un paragraphe hors div</p>                                 
+    </body>  
+</html>
+
+#################
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+
+div{    
+      border:1px solid black;
+        
+}
+
+div::before{    
+      content:"du texte ajouté au début de mon div, avec :: before";
+        
+}
+
+div::after{    
+      content:url("china.jpg");
+        
+}
+#################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <h1>CSS avancé</h1>
+          <a href="http://facebook.com" id="fb"></a> 
+          <a href="http://twitter.com" id="tw"></a>
+          <a href="http://linkedin.com" id="lk"></a>                                     
+    </body>  
+</html>
+
+#################
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+#fb, #tw, #lk{
+   width: 50px;
+   heigth: 50px;
+   display: block
+   position: absolute;
+}
+
+#fb{
+   background-image:url("china.jpg");
+   background-position: 0px 0px;
+}
+
+###################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Avancé</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+          <div>
+               <p>Un premier paragraphe</p>
+               <p>Un deuxième paragraphe</p>
+               <p>Un troisième paragraphe</p>               
+          </div>                                          
+    </body>  
+</html>
+
+################
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+div{
+   width: 200px;
+   heigth: 200px;
+   background-color: #06D;
+}
+
+################
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+div{
+   width: 200px;
+   heigth: 200px;
+   background-color: #06D;
+}
+
+div:hover{
+        width: 400px;
+        background-color: #A03; 
+}
+
+/* il faut pl	acer la sourie sur l'image produite */
+
+
+##################
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+div{
+   width: 200px;
+   heigth: 200px;
+   background-color: #06D;
+   -webkit-transition: width 2s, background-color 5s;
+   -moz-transition: width 2s, background-color 5s;
+   -o-transition: width 2s, background-color 5s;
+   transition: width 2s, background-color 5s; 
+}
+
+div:hover{
+        width: 400px;
+        background-color: #A03; 
+}
+
+/* il faut pl	acer la sourie sur l'image produite */
+
+###################
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+div{
+   width: 200px;
+   heigth: 200px;
+   background-color: #06D;
+   -webkit-transition: 3s width 2s ease, 3s background-color 5s ease;
+   -moz-transition: 3s width 2s ease, 3s background-color 5s ease;
+   -o-transition: 3s width 2s ease, 3s background-color 5s ease;
+   transition: 3s width 2s ease, 3s background-color 5s ease; 
+}
+
+div:hover{
+        width: 400px;
+        background-color: #A03; 
+}
+
+/* il faut pl	acer la sourie sur l'image produite */
+
+####################
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+div{
+   width: 200px;
+   heigth: 200px;
+   background-color: #06D;
+   -webkit-transition: 3s width 2s ease, background-color 5s ease;
+   -moz-transition: 3s width 2s ease, background-color 5s ease;
+   -o-transition: 3s width 2s ease, background-color 5s ease;
+   transition: 3s width 2s ease, background-color 5s ease; 
+}
+
+div:hover{
+        width: 400px;
+        background-color: #A03; 
+}
+
+/* il faut pl	acer la sourie sur l'image produite */
+
+
+####################
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+div{
+   width: 200px;
+   heigth: 200px;
+   background-color: blue;
+   -webkit-animation-name: chgt-couleur;
+   -webkit-animation-duration: 5s;
+   -moz-animation-name: chgt-couleur;
+   -moz-animation-duration: 5s;
+   -o-animation-name: chgt-couleur;
+   -o-animation-duration: 5s;
+   -animation-name: chgt-couleur;
+   -animation-duration: 5s; 
+}
+
+@-webkit-keyframes chgt-couleur{
+    from {background-color: blue;}
+    to {background-color: orange;}
+}
+
+@-moz-keyframes chgt-couleur{
+    from {background-color: blue;}
+    to {background-color: orange;}
+}
+
+@-o-keyframes chgt-couleur{
+    from {background-color: blue;}
+    to {background-color: orange;}
+}
+
+@keyframes chgt-couleur{
+    from {background-color: blue;}
+    to {background-color: orange;}
+}
+
+
+
+####################
+
+
+body{
+     font-family: 'Roboto', sans-serif;       
+}
+
+div{
+   width: 200px;
+   heigth: 200px;
+   background-color: blue;
+   -webkit-animation-name: chgt-couleur;
+   -webkit-animation-duration: 5s;
+   -webkit-animation-timing-function: ease;
+   -webkit-animation-delay: 4s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-direction: alternate;
+
+   -moz-animation-name: chgt-couleur;
+   -moz-animation-duration: 5s;
+   -moz-animation-timing-function: ease;
+   -moz-animation-delay: 4s;
+   -moz-animation-iteration-count: infinite;
+   -moz-animation-direction: alternate;
+
+   -o-animation-name: chgt-couleur;
+   -o-animation-duration: 5s;
+   -o-animation-timing-function: ease;
+   -o-animation-delay: 4s;
+   -o-animation-iteration-count: infinite;
+   -o-animation-direction: alternate;
+
+   animation-name: chgt-couleur;
+   animation-duration: 5s;
+   animation-timing-function: ease;
+   animation-delay: 4s;
+   animation-interation-count: infinite;
+   animation-direction: alternate;  
+}
+
+
+@-webkit-keyframes chgt-couleur{
+    0%{background-color: green; top: 0px; left: 0px;}
+    25%{background-color: yellow; top: 0px; left: 200px;}
+    50%{background-color: red; top: 200px; left: 200px;}
+    75%{background-color: blue; top: 200px; left: 0px;}
+    100%{background-color: green; top: 0px; left: 0px;}
+}
+
+
+@-moz-keyframes chgt-couleur{
+    0%{background-color: green; top: 0px; left: 0px;}
+    25%{background-color: yellow; top: 0px; left: 200px;}
+    50%{background-color: red; top: 200px; left: 200px;}
+    75%{background-color: blue; top: 200px; left: 0px;}
+    100%{background-color: green; top: 0px; left: 0px;}
+}
+
+@-o-keyframes chgt-couleur{
+    0%{background-color: green; top: 0px; left: 0px;}
+    25%{background-color: yellow; top: 0px; left: 200px;}
+    50%{background-color: red; top: 200px; left: 200px;}
+    75%{background-color: blue; top: 200px; left: 0px;}
+    100%{background-color: green; top: 0px; left: 0px;}
+}
+
+@keyframes chgt-couleur{
+    0%{background-color: green; top: 0px; left: 0px;}
+    25%{background-color: yellow; top: 0px; left: 200px;}
+    50%{background-color: red; top: 200px; left: 200px;}
+    75%{background-color: blue; top: 200px; left: 0px;}
+    100%{background-color: green; top: 0px; left: 0px;}
+}
+
+/* A refaire */
+
+###################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Un premier paragraphe</h1>
+          <form method="post" action="traitement.php">
+
+              <label for="prenom">Entrez votre prénom</label>               
+              <input type="text" id="prenom" name="prenom">
+          
+              <label for="prez">Une petite présentation</label>               
+              <textarea id="prez" name="presentation"></textarea>
+            
+              <input type="submit" value="Envoyer">
+          </form 
+                                        
+    </body>  
+</html>
+
+##################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Un premier paragraphe</h1>
+          <form method="post" action="traitement.php">
+
+              <label for="prenom">Entrez votre prénom</label>               
+              <input type="text" id="prenom" name="prenom"><br>
+          
+              <label for="prez">Une petite présentation</label>               
+              <textarea id="prez" name="presentation"></textarea><br>
+            
+              <input type="submit" value="Envoyer">
+          </form 
+                                        
+    </body>  
+</html>
+
+#################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Un premier paragraphe</h1>
+          <form method="post" action="traitement.php">
+
+              <label for="prenom">Entrez votre prénom</label>               
+              <input type="text" id="prenom" name="prenom"><br>
+              
+              <label for="pass">Entrez un mot de passe</label>               
+              <input type="password" id="pass" name="pass"><br>
+
+              <label for="naissance">Entrez votre date de naissance</label>               
+              <input type="date" id="naissance" name="naissance"><br>
+
+              <label for="email">Entrez votre mail</label>               
+              <input type="email" id="email" name="mail"><br>
+
+              <label for="site">Entrez votre site</label>               
+              <input type="url" id="site" name="site"><br>
+
+              <label for="tel">Entrez un numéro</label>               
+              <input type="number" id="tel" name="tel"><br> 
+ 
+                        
+              <label for="prez">Une petite présentation</label>               
+              <textarea id="prez" name="presentation"></textarea><br>
+      
+              <input type="submit" value="Envoyer">
+          </form 
+                                        
+    </body>  
+</html>
+
+#################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Un premier paragraphe</h1>
+          <form method="post" action="traitement.php">
+              Homme et femme ? <br> 
+              <input type="radio" id="homme" name="sexe" value="homme">
+              <label for="homme"> Un homme</label><br>               
+              <input type="radio" id="femme" name="sexe" value="femme">
+              <label for="femme"> Une femme</label><br><br>     
+              
+              Majeur et mineur ? <br> 
+              <input type="radio" id="mineur" name="age" value="mineur">
+              <label for="mineur"> Mineur</label><br>               
+              <input type="radio" id="majeur" name="age" value="majeur">
+              <label for="majeur"> Majeur</label><br>          
+
+                        
+              <label for="prez">Une petite présentation</label>               
+              <textarea id="prez" name="presentation"></textarea><br>
+      
+              <input type="submit" value="Envoyer">
+          </form 
+                                        
+    </body>  
+</html>
+
+############################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Un premier paragraphe</h1>
+          <form method="post" action="traitement.php">
+              Quel sport pratiquez vous ? <br> 
+              <input type="checkbox" name="sport" value="natation" id="natation">
+              <label for="natation"> Natation</label><br> 
+              <input type="checkbox" name="sport" value="course" id="course">
+              <label for="course"> Corse à pied</label><br> 
+              <input type="checkbox" name="sport" value="velo" id="velo">
+              <label for="velo"> Vélo</label><br><br>               
+                            
+              
+              <label for="prez">Une petite présentation</label>               
+              <textarea id="prez" name="presentation"></textarea><br>
+      
+              <input type="submit" value="Envoyer">
+          </form 
+                                        
+    </body>  
+</html>
+
+##############################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Un premier paragraphe</h1>
+          <form method="post" action="traitement.php">
+              Où habitez vous ? <br> 
+              <select name="pays">
+                 <option value="france">France</option>            
+                 <option value="belgique">Belgique</option>
+                 <option value="canada">Canada</option>
+                 <option value="guinee">Guinée</option>
+                 <option value="mali">Mali</option>
+                 <option value="maroc">Maroc</option>           
+              </select><br><br>
+
+              <label for="prez">Une petite présentation</label>               
+              <textarea id="prez" name="presentation"></textarea><br>
+      
+              <input type="submit" value="Envoyer">
+          </form 
+                                        
+    </body>  
+</html>
+
+################################################################################################################
+
+
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Un premier paragraphe</h1>
+          <form method="post" action="traitement.php">
+              Où habitez vous ? <br> 
+              <select name="pays">
+                 <optgroup label="Afrique">
+                    <option value="guinee">Guinée</option>
+                    <option value="mali">Mali</option>
+                    <option value="maroc">Maroc</option>
+                 </optgroup>
+                    <optgroup label="Europe"> 
+                    <option value="france">France</option>            
+                    <option value="belgique">Belgique</option>
+                 </optgroup> 
+                 <optgroup label="Amérique">
+                    <option value="canada">Canada</option>
+                 </optgroup>                            
+              </select><br><br>
+
+              <label for="prez">Une petite présentation</label>               
+              <textarea id="prez" name="presentation"></textarea><br>
+      
+              <input type="submit" value="Envoyer">
+          </form 
+                                        
+    </body>  
+</html>
+
+##############################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Les formulaires</h1>
+          <form method="post" action="traitement.php">
+              <label for="prenom">Entrez votre prénom</label>
+              <input type="text" name="prenom" id="prenom" autocomplete="on">
+               
+              <input type="submit" value="Envoyer">
+          </form> 
+                                        
+    </body>  
+</html>
+
+################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Les formulaires</h1>
+          <form method="post" action="traitement.php">
+              <label for="prenom">Entrez votre prénom</label>
+              <input type="text" name="prenom" id="prenom" autocomplete="on"><br>
+               
+              <label for="nom">Entrez votre nom</label>
+              <input type="text" name="nom" id="nom" autofocus="autofocus"><br>
+
+              <input type="submit" value="Envoyer">
+          </form>                                        
+    </body>  
+</html>
+
+#################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Les formulaires</h1>
+          <form method="post" action="traitement.php">
+              <label for="prenom">Entrez votre prénom</label>
+              <input type="text" name="prenom" id="prenom" autocomplete="on"><br>
+               
+              <label for="nom">Entrez votre nom</label>
+              <input type="text" name="nom" id="nom" autofocus="autofocus"><br>
+              
+              <label for="nom">Choisissez un chiffre entre 1 et 10</label>
+              <input type="number" name="nombre" id="nombre" min="1" max="10"><br> /* atention au min max*/
+  
+              <input type="submit" value="Envoyer">
+          </form>                                        
+    </body>  
+</html>
+
+
+#################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Les formulaires</h1>
+          <form method="post" action="traitement.php">
+              <label for="prenom">Entrez votre prénom</label>
+              <input type="text" name="prenom" id="prenom" autocomplete="on" placeholder="Ex: Pierre"><br>
+               
+              <label for="nom">Entrez votre nom</label>
+              <input type="text" name="nom" id="nom" autofocus="autofocus"><br>
+              
+              <label for="nom">Choisissez un chiffre entre 1 et 10</label>
+              <input type="number" name="nombre" id="nombre" min="1" max="10"><br> /* atention au min max*/
+  
+              <input type="submit" value="Envoyer">
+          </form>                                        
+    </body>  
+</html>
+
+#################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Un premier paragraphe</h1>
+          <form method="post" action="traitement.php">
+              Homme et femme ? <br> 
+              <input type="radio" id="homme" name="sexe" value="homme" checked="checked">
+              <label for="homme"> Un homme</label><br>               
+              <input type="radio" id="femme" name="sexe" value="femme">
+              <label for="femme"> Une femme</label><br>     
+              
+              Majeur et mineur ? <br> 
+              <input type="radio" id="mineur" name="age" value="mineur">
+              <label for="mineur"> Mineur</label><br>               
+              <input type="radio" id="majeur" name="age" value="majeur" checked="checked">
+              <label for="majeur"> Majeur</label><br> 
+ 
+              Quel sport pratiquez vous ? <br> 
+              <input type="checkbox" name="sport" value="natation" id="natation" checked="checked">
+              <label for="natation"> Natation</label><br> 
+              <input type="checkbox" name="sport" value="course" id="course" checked="checked">
+              <label for="course"> Corse à pied</label><br> 
+              <input type="checkbox" name="sport" value="velo" id="velo">
+              <label for="velo"> Vélo</label><br>
+
+              Où habitez vous ? <br> 
+              <select name="pays">
+                 <optgroup label="Afrique">
+                    <option value="guinee">Guinée</option>
+                    <option value="mali" selected="selected">Mali</option>
+                    <option value="maroc">Maroc</option>
+                 </optgroup>
+                    <optgroup label="Europe"> 
+                    <option value="france">France</option>            
+                    <option value="belgique">Belgique</option>
+                 </optgroup> 
+                 <optgroup label="Amérique">
+                    <option value="canada">Canada</option>
+                 </optgroup>                            
+              </select><br><br>         
+
+                        
+              <label for="prez">Une petite présentation</label>               
+              <textarea id="prez" name="presentation"></textarea><br>
+      
+              <input type="submit" value="Envoyer">
+          </form 
+                                        
+    </body>  
+</html>
+
+
+#################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Un premier paragraphe</h1>
+          <form method="post" action="traitement.php">
+              <label for="prenom">Entrez votre prénom</label>               
+              <input type="text" id="prenom" name="prenom" required="required">
+      
+              <input type="submit" value="Envoyer">
+          </form 
+                                        
+    </body>  
+</html>
+
+##################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Les formulaires</h1>
+          <form method="post" action="traitement.php">
+              <label for="prenom">Entrez votre prénom</label>               
+              <input type="text" id="prenom" name="prenom"><br>
+              <label for="nom">Entrez votre nom</label>               
+              <input type="text" id="nom" name="nom"><br>
+              <label for="pseudo">Choisissez un pseudonyme</label>               
+              <input type="text" id="pseudo" name="pseudo"><br>   
+              
+                        
+              Quels sont vos loirs ?<br>
+              <input type="checkbox" name="hobbies" value="informatique" id="inf">
+              <abel for="inf"> Informatique</label>
+              <input type="checkbox" name="hobbies" value="sport" id="sport">
+              <abel for="sport"> Sport</label> 
+              <input type="checkbox" name="hobbies" value="voyage" id="voyage">
+              <abel for="voyage"> Voyage</label> 
+              <input type="checkbox" name="hobbies" value="musique" id="musique">
+              <abel for="musique"> Voyage</label>  
+      
+              <input type="submit" value="Envoyer">
+          </form 
+                                        
+    </body>  
+</html>
+
+##################################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les formulaires</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">      
+    </head>
+    <body>
+          <h1>Les formulaires</h1>
+          <form method="post" action="traitement.php">
+              <fieldset>
+                  <legend>Informations personnelles :</legend>
+                  <label for="prenom">Entrez votre prénom</label>               
+                  <input type="text" id="prenom" name="prenom"><br>
+                  <label for="nom">Entrez votre nom</label>               
+                  <input type="text" id="nom" name="nom"><br>
+                  <label for="pseudo">Choisissez un pseudonyme</label>               
+                  <input type="text" id="pseudo" name="pseudo"><br>
+              </fieldset>   
+              
+              <fieldset>
+                      <legend>Informations suplémentaires :</legend>         
+                      Quels sont vos loirs ?<br>
+                      <input type="checkbox" name="hobbies" value="informatique" id="inf">
+                      <abel for="inf"> Informatique</label>
+                      <input type="checkbox" name="hobbies" value="sport" id="sport">
+                      <abel for="sport"> Sport</label> 
+                      <input type="checkbox" name="hobbies" value="voyage" id="voyage">
+                      <abel for="voyage"> Voyage</label> 
+                      <input type="checkbox" name="hobbies" value="musique" id="musique">
+                      <abel for="musique"> Voyage</label>  
+              </fieldset>
+
+              <input type="submit" value="Envoyer">
+          </form 
+                                        
+    </body>  
+</html>
+
+
+##################
+
+body{
+     font-size: 16px;
+     font-family: Verdana sans-serif;
+     color: #333;       
+}
+
+#section1{
+     background-color:rgb(170,200,40,0.6);
+     padding: 10px;
+     marging: 20px 0px;
+}
+
+#section2{
+     background-color:rgb(40,170,200,0.6);
+     padding: 10px;
+     marging: 20px 0px;
+}
+
+#section1:hover,#section2:hover{
+   box-shadow: 0px 0px 5px #444;
+}
+
+legend{
+   font-weight:bold;
+   text-transform: uppercase;
+   font-size:18px;
+   color: #444;   
+} 
+
+
+#section1 input{
+     width:20;
+     height: 20px;
+}
+
+#section2 input{
+     width:20;
+     height: 20px;
+}
+
+#section1 label{
+     display:inline-block;
+     width: 200px;
+     padding: 10px 0px 15px 40px;
+}
+
+#section2 label{
+     display:inline-block;
+     width: 100px;
+     padding: 5px 0px 15px 10px;
+}
+
+input[type="submit"]{
+     float:right;
+     padding: 10px;
+     font-size:14px;
+     color:#fff;
+     background-color:#fe6921;
+     font-weight:bold;
+     text-transform:uppercase;
+     border-radus:5px;
+}
+
+input[type="submit"]:hover{
+     box-shadow: 0px 0px 4px #555;
+     background-color: #e8ab2e
+}
+
+
+##################################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Responsive design</title>
+      <meta charset="utf-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">       
+    </head>
+    <body>
+        <h1>Responsive design</h1>
+    <div>
+        <p>Un premier paragraph</p>
+        <p>Un deuxième paragraph</p>
+        <p>Un troisième paragraph</p>    
+    </div>                            
+    </body>  
+</html>
+
+###############
+
+body{
+     width: 100%;       
+}
+
+
+div, p{
+     width:50%; 
+     border: 1px solid black;     
+}
+
+div{
+   background-color: #08B;
+}
+
+p{
+  background-color: #0B8; 
+}
+
+##################################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Responsive design</title>
+      <meta charset="utf-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">       
+    </head>
+    <body>
+        <h1>Responsive design</h1>
+                       
+    </body>  
+</html>
+
+###############
+
+body{
+     background-color: green;       
+}
+
+@media screen and (max-width: 680px){
+     body{
+         background-color: orange;  
+     }
+}
+
+
+@media screen and (min-width: 681px) and (max-width: 1279px){
+     body{
+         background-color: blue;  
+     }
+     h1{
+        font-size: 20px;
+     }
+}
+
+##################################################################################################
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Responsive design</title>
+      <meta charset="utf-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">       
+    </head>
+    <body>
+        <h1>Responsive design</h1>
+        <div id="div1">
+           <p>paragraph div 1</p>          
+        </div>
+        <div id="div2">
+           <p>paragraph div 2</p>          
+        </div>
+        <div id="div3">
+           <p>paragraph div 3</p>          
+        </div>
+        <div id="footer">
+           <p>Je suis un pied de page</p>          
+        </div>                       
+    </body>  
+</html>
+
+###############
+
+body{
+    margin: 0px;
+    padding: px;     
+}
+
+#div1, #div2, #div3{
+    display: inline-block;
+    width:30%;
+    heigth: 100px;
+    border: 3px solid #AAA;
+    margin: 1%;
+}
+
+#div1{
+     background-color: orange;
+}
+
+#div2{
+     background-color: blue;
+}
+
+#div3{
+     background-color: green;
+}
+
+#footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    text-align: center;
+    background-color: #CCC;
+}
+
+
+##############
+
+body{
+    margin: 0px;
+    padding: px;     
+}
+
+#div1, #div2, #div3{
+    display: inline-block;
+    width:30%;
+    heigth: 100px;
+    border: 3px solid #AAA;
+    margin: 1%;
+}
+
+#div1{
+     background-color: orange;
+}
+
+#div2{
+     background-color: blue;
+}
+
+#div3{
+     background-color: green;
+}
+
+#footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    text-align: center;
+    background-color: #CCC;
+}
+
+@media screen and (max-width: 780px){
+   #div1, #div2, #div3{
+        width: 100%;
+        border-rigth: none;
+        border-left: none;
+        margin-right: 0px;
+        margin-left: 0px;
+   }
+   #footer{
+          display: none;
+   }
+} 
+
+##########
+
+body{
+    margin: 0px;
+    padding: px;     
+}
+
+#div1, #div2, #div3{
+    display: inline-block;
+    width:30%;
+    heigth: 100px;
+    border: 3px solid #AAA;
+    margin: 1%;
+}
+
+#div1{
+     background-color: orange;
+}
+
+#div2{
+     background-color: blue;
+}
+
+#div3{
+     background-color: green;
+}
+
+#footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    text-align: center;
+    background-color: #CCC;
+}
+
+@media screen and (max-width: 780px){
+   #div1, #div2, #div3{
+        width: 100%;
+        border-rigth: none;
+        border-left: none;
+        margin-right: 0px;
+        margin-left: 0px;
+   }
+   #footer{
+          display: none;
+   }
+} 
+@media screen and(orientation: landscape){} //compatibilité avec smatphone, tablette etc .. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+      
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

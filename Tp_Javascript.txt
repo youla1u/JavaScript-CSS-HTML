@@ -1,0 +1,1489 @@
+
+
+###################################################################################
+########### https://codepen.io/pen/?editors=1000 ##################################
+###################################################################################
+
+<!DOCTYPE>
+<html>
+    <head>
+      <title>Où écrire le JavaScript ?</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les Ternaires</h1>
+      <script>
+        var heur = 13, bon = "";
+        bon =(heur <= 18) ? "Bonjuor" : "Bonsoir";
+        alert(bon)
+      </script> 
+    </body>  
+</html>
+##################################################################################
+<!DOCTYPE>
+<html>
+    <head>
+      <title>Où écrire le JavaScript ?</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Le Switch</h1>
+      <script>
+        var heur = 10;
+        switch(heur){
+             case 8 :
+                  alert("il est 8 heur");
+                  break;
+             case 9 :
+                  alert("il est 9 heur");
+                  break;
+             case 10 :
+                  alert("il est 10 heur");
+                  break;
+             case 11 :
+                  alert("il est 11 heur");
+                  break;
+             case 12 :
+                  alert("il est 12 heur");
+                  break;
+             default :
+                  alert("Rien à afficher pour cette valeur");   
+        }
+      </script> 
+    </body>  
+</html>
+##################################################################################
+<html>
+    <head>
+      <title>Où écrire le JavaScript ?</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les Ternaires</h1>
+      <script>
+        var heur = 17;
+        switch(heur){
+             case 8 :
+                  alert("il est 8 heur");
+                  break;
+             case 9 :
+                  alert("il est 9 heur");
+                  break;
+             case 10 :
+                  alert("il est 10 heur");
+                  break;
+             case 11 :
+                  alert("il est 11 heur");
+                  break;
+             case 12 :
+                  alert("il est 12 heur");
+                  break;
+             default :
+                  if (heur > 12){
+                               alert("Il est midi passé");
+                  }   
+        }
+      </script> 
+    </body>  
+</html>
+##################################################################################
+<!DOCTYPE>
+<html>
+    <head>
+      <title>Les boucles JavaScript</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les boucles JavaScript</h1>
+      <script>
+           var x = 0;
+           while(x < 10){
+                alert('x contient la valeur : '+ x);
+                x++;
+           } 
+      </script> 
+    </body>  
+</html>
+##################################################################################
+<!DOCTYPE>
+<html>
+    <head>
+      <title>Les boucles JavaScript</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les boucles JavaScript</h1>
+      <script>
+           var x = 10;
+           while(x > 2){
+                alert('x contient la valeur : '+ x);
+                x--;
+           } 
+      </script> 
+    </body>  
+</html>
+###################################################################################
+<!DOCTYPE>
+<html>
+    <head>
+      <title>Les boucles JavaScript</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les boucles JavaScript</h1>
+      <script>
+           var x = 10; xprime = 0, alpha = 10, alphaprime = 10;
+           
+           var y = x++;
+           var beta = alpha--;
+           
+           var yprime = ++xprime;
+           var betaprime = -- alphaprime;
+         
+           alert('y : '+ y +
+                 '\nx : ' + x +
+                 '\nbeta : ' + beta +
+                 '\nalpha : ' + alpha +
+                 '\nyprime : ' + yprime +
+                 '\nxprime : ' + xprime +
+                 '\nbetaprime : ' + betaprime +
+                 '\nalphaprime : ' + alphaprime);            
+      </script> 
+    </body>  
+</html>
+##################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les boucles JavaScript</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les boucles JavaScript</h1>
+      <script>
+           var x = 0; 
+           do{
+              alert('x vaut :' + x);
+              x--;
+           }
+           while ( x > 10);            
+      </script> 
+    </body>  
+</html>
+##################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les boucles JavaScript</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les boucles JavaScript</h1>
+      <script>
+           var x = 15; 
+           do{
+              alert('x vaut :' + x);
+              x--;
+           }
+           while ( x > 10);            
+      </script> 
+    </body>  
+</html>
+###############################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les boucles JavaScript</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les boucles JavaScript</h1>
+      <script>
+           var i ="";           
+           for(i = 0 ;  i< 10 ; i++){
+              alert('i contient la valeur :' + i);
+           }                     
+      </script> 
+    </body>  
+</html>
+#################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les Fonctions en JavaScript</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les Fonctions en JavaScript</h1>
+      <script>
+           function multiplication(x,y){
+             alert(x*y);           
+           } 
+           multiplication(5,10);
+           multiplication(-4,60);              
+      </script> 
+    </body>  
+</html>
+###################################################################################
+<html>
+    <head>
+      <title>Les Fonctions en JavaScript</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les Fonctions en JavaScript</h1>
+      <script>
+           function multiplication(x,y){
+              alert("ce message sera affiché")  
+              return x * y ;
+              alert("ce message ne sera jamais affiché car l'instruction return met fin à l'exécution d'une fonction")           
+           } 
+           var resultat1  = multiplication(5,10);
+           var resultat2  = multiplication(-4,60);
+           resultat1 += 2;
+           alert(resultat1);      
+      </script> 
+    </body>  
+</html>
+#################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Introduction aux objets</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Introduction aux objets</h1>
+      <script>
+           var primitive = "je suis une valeur primitive";
+        
+           var moi = {
+               prenom : "Pierre",
+               nom : "Giraud", 
+               age : 25,
+               identite : function(){
+                   return 'Prénom : ' + this.prenom +
+                          '\nNom : ' + this.nom +
+                          '\nAge : ' + this.age;
+               }  
+           } 
+
+           alert(moi.identite());  
+      </script> 
+    </body>  
+</html>
+##################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var primitive ="Je suis une valeur primitive";
+           var type_prime = typeof(primitive);
+
+           var chaine = new String("je suis un objet");
+           var type_chai = typeof(chaine);
+
+           alert("Type de primitive : " + type_prime +
+                 "\nType de chaine : " + type_chai);   
+      </script> 
+    </body>  
+</html>
+#################################################################################
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var primitive ="Je suis une valeur primitive";
+           var longueur_prime = primitive.length;
+           var maj_prime = primitive.toUpperCase();
+
+           var chaine = new String("je suis un objet");
+           var longueur_chai = chaine.length; 
+           var maj_chai = chaine.toUpperCase();
+
+           alert("Longeur de primitive : " + longueur_prime +
+                 "\nPrimitive en majuscules : " + maj_prime +
+                 "\nChine en majuscules : " + maj_chai +
+                 "\nChine en Longeur : " + longueur_chai);   
+      </script> 
+    </body>  
+</html>
+##################################################################################
+<!DOCTYPE html> /* cette methode est moin recomandé*/
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var obj_string = new String("je suis un objet");
+           var objet_cree = new Object();
+      
+           objet_cree.prenom = "Mohamed";
+           objet_cree.nom = "YOULA"
+           objet_cree.age = 25; 
+
+           alert(objet_cree.prenom);   
+      </script> 
+    </body>  
+</html>
+
+
+##################################################################################
+<!DOCTYPE html> /* cette methode est plus recomandé*/
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var moi = {
+               prenom : "Mohamed",
+               nom : "YOULA", 
+               age : 25,
+               id : function(){
+                   return this.prenom + ' ' + this.nom;
+               }  
+           } 
+
+           alert(moi.id());  
+      </script> 
+    </body>  
+</html>
+
+###################################################################################
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           function Identite(p, n, a){
+           this.prenom = p;
+           this.nom = n;
+           this.age = a;    
+           } 
+           
+           var mohamed = new Identite("Mohamed", "YOULA", 25);
+           var sidiki = new Identite("Sidiki", "YOULA", 10);
+           
+          alert("Age de Mohamed :" + mohamed.age +
+                "\nAge de Sidiki :" + sidiki.age);      
+    
+      </script> 
+    </body>  
+</html>
+##################################################################################
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var x = 10;
+           var y = x;
+           y +=10;
+          
+           alert('Valeur de x : ' + x +
+                 '\nValeur de y : ' + y);
+          
+      </script> 
+    </body>  
+</html>
+#########
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           function Identite(p, n, a){
+           this.prenom = p;
+           this.nom = n;
+           this.age = a;    
+           } 
+           
+           var mohamed = new Identite("Mohamed", "YOULA", 25);
+           var sidiki = mohamed;
+           sidiki.prenom = "tdgdchc";  
+           
+           alert("Prénom de Mohamed : " + mohamed.prenom +
+                "\nPrénom de Sidiki : " + sidiki.prenom);      
+    
+      </script> 
+    </body>  
+</html>
+##########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           function Identite(p, n, a){
+           this.prenom = p;
+           this.nom = n;
+           this.age = a;    
+           } 
+           
+           var mohamed = new Identite("Mohamed", "YOULA", 25);
+           var sidiki = mohamed;
+           sidiki.prenom = "tdgdchc";  
+           
+           alert("Prénom de Mohamed : " + mohamed.prenom +
+                "\nPrénom de Sidiki : " + sidiki.prenom);      
+    
+      </script> 
+    </body>  
+</html>
+###################################################################################
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var text = "J'apprends le JAVASCRIPT";
+
+           var texteMin = text.toLowerCase();
+           var texteMaj = text.toUpperCase();
+           
+          
+           alert("Text  de base : " + text +
+                 "\nTexte en minuscules : " + texteMin+
+                 "\nTexte en majuscules : " + texteMaj);   
+    
+      </script> 
+    </body>  
+</html>
+##########
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var text = "J'apprends le JAVASCRIPT";
+
+           var pose0 = text.charAt(0);
+           var pose3 = text.charAt(3);
+           var pose11 = text.charAt(11); 
+          
+           alert("Text  de base : " + text +
+                 "\ncarctère 0 : " + pose0 +
+                 "\ncarctère 3 : " + pose3 +
+                 "\ncarctère 11 : " + pose11);   
+    
+      </script> 
+    </body>  
+</html>
+############
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var text = "J'apprends le JAVASCRIPT";
+
+           var premiere = text.indexOf('p');
+           var derniere = text.lastIndexOf('p');
+           var sequence = text.indexOf('le'); 
+          
+           alert("Text  de base : " + text +
+                 "\nPremier 'p' trouvé en position : " + premiere +
+                 "\nDernier 'p' trouvé en position : " + derniere +
+                 "\nPremier 'le' trouvé en position : " + sequence); 
+      </script> 
+    </body>  
+</html>
+#############
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var text = "J'apprends le JAVASCRIPT";
+
+           var premiere = text.indexOf('z');
+           
+          
+           alert("Text  de base : " + text +
+                 "\nPremier 'z' trouvé en position : " + premiere); 
+      </script> 
+    </body>  
+</html>
+#############
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var text = "J'apprends le JAVASCRIPT";
+
+           var premiere = text.indexOf('J',1);
+           
+          
+           alert("Text  de base : " + text +
+                 "\nPremier 'J' trouvé en position : " + premiere); 
+      </script> 
+    </body>  
+</html>
+#############
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var text = "J'apprends le JAVASCRIPT";                 
+          
+           alert(text.replace("JAVASCRIPT","PHP")); 
+      </script> 
+    </body>  
+</html>
+##############
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var text = "J'apprends le JAVASCRIPT";                 
+          
+           alert(text.slice(0,10)); 
+      </script> 
+    </body>  
+</html>
+###########
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var text = "J'apprends le JAVASCRIPT";                 
+          
+           alert(text.slice(-11,-1)); 
+      </script> 
+    </body>  
+</html>
+###########
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var text = "         J'apprends le JAVASCRIPT         ";                 
+           
+           var texteNettoyer = text.trim();
+           alert("Avant trim : " + text +
+                  "\nAprès trim : " + texteNettoyer); 
+      </script> 
+    </body>  
+</html>
+#########
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var min = Number.MIN_VALUE;
+           var max = Number.MAX_VALUE;
+           var infneg = Number.NEGATIVE_INFINITY;
+           var infpos = Number.POSITIVE_INFINITY;
+           var notnumber = Number.NAN;
+  
+           alert("Min : " + min +
+                  "\nMax : " + max + 
+                   "\nInfini négatif : " + infneg +
+                   "\nInfini positif : " + infpos +
+                   "\nPas un nombre : " + notnumber); 
+      </script> 
+    </body>  
+</html>
+###########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var x = 10;
+        
+          var t = x.toString();
+        
+          alert('Type x : ' + typeOf(x)+
+                '\nType x : ' + typeOf(y));
+      
+      </script> 
+    </body>  
+</html>
+
+############
+
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var x = 10;
+        
+          var t = x.toString();
+        
+          alert('Type x : ' + typeof(x)+
+                '\nType y : ' + typeof(t));
+      
+      </script> 
+    </body>  
+</html>
+############
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var x = 10.4531;
+        
+          var d = x.toFixed(2);
+        
+          alert('Valeur d: ' + d +
+                '\nType d : ' + typeof(d));
+      
+      </script> 
+    </body>  
+</html>
+##########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var x = 10.4531;
+        
+          var d = x.toPrecision(3);
+        
+          alert('Valeur d: ' + d +
+                '\nType d : ' + typeof(d));
+      
+      </script> 
+    </body>  
+</html>
+########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var x = 10.4531;
+        
+          var d = x.toExponential(2);
+        
+          alert('Valeur d: ' + d +
+                '\nType d : ' + typeof(d));
+      
+      </script> 
+    </body>  
+</html>
+#########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var t = true;        
+          var f = false;
+          var d = new Date();
+          alert('True : ' + Number(t)+
+                '\nFalse : ' + Number(f)+ 
+                '\nDate: ' + Number(d));       
+      
+      </script> 
+    </body>  
+</html>
+##########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var x = "10.4531";        
+          var int = parseInt(x);
+          var dec = parseFloat(x);
+
+          alert('parseInt() : ' + int + '-' +typeof(int) + 
+                '\nparsefloat() : ' + dec + '-' +typeof(dec));       
+      
+      </script> 
+    </body>  
+</html>
+
+###################################################################################
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "Victor", "Julia", "Claire"];        
+          
+          alert(prenoms[0]);       
+      
+      </script> 
+    </body>  
+</html>
+
+#######
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "Victor", "Julia", "Claire"];        
+          
+          prenoms[0]= "Paul"; 
+          alert(prenoms[0]);       
+      
+      </script> 
+    </body>  
+</html>
+
+########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "Victor", "Julia", "Claire"];        
+                    
+          alert('Notre tableau contient : ' + prenoms.length + ' éléments');       
+      
+      </script> 
+    </body>  
+</html>
+
+##########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "Victor", "Julia", "Claire"];        
+          prenoms[prenoms.length] = "Florian"; 
+          prenoms[prenoms.length] = "Cloé";          
+          alert(prenoms);
+              
+      </script> 
+    </body>  
+</html>
+
+#######
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "Victor", "Julia", "Claire"]
+          var p = "" ;
+
+          for( var i = 0 ; i < prenoms.length; i++){
+               p+= 'Prénom n°' + (i+1) + ' : ' + prenoms[i] + '\n';
+          }  
+          
+          alert(p); 
+      </script> 
+    </body>  
+</html>
+
+############
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = {
+              prenom1 : 'Pierre',
+              prenom2 : 'Victor',
+              prenom3 : 'Julia',
+              prenom4 : 'Claire' 
+          };          
+          alert(prenoms.prenom1 + '\n' +
+                prenoms); 
+      </script> 
+    </body>  
+</html>
+
+##########
+
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = {
+              prenom1 : 'Pierre',
+              prenom2 : 'Victor',
+              prenom3 : 'Julia',
+              prenom4 : 'Claire' 
+          }, p = '';
+          
+          for( var clefs in prenoms){
+               p+= clefs + ' : ' + prenoms[clefs] + '\n';
+          }  
+          
+          alert(p);            
+           
+      </script> 
+    </body>  
+</html>
+###################################################################################
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "Victor", "Julia", "Claire"], p="";
+          var taille = prenoms.push("Florian", "Cloé");
+
+          for( var i = 0 ; i < prenoms.length; i++){
+               p+= 'Prénom n°' + (i+1) + ' : ' + prenoms[i] + '\n';
+          }  
+          
+          alert(p); 
+      </script> 
+    </body>  
+</html>
+##########
+
+ <!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "Victor", "Julia", "Claire"], p="";
+          var suppr = prenoms.pop();
+
+          for( var i = 0 ; i < prenoms.length; i++){
+               p+= 'Prénom n°' + (i+1) + ' : ' + prenoms[i] + '\n';
+          }  
+          
+          alert(p + " \n\nnous avons supprimé " +suppr+ " du tableau"); 
+      </script> 
+    </body>  
+</html>
+##########
+
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "Victor", "Julia", "Claire"], p="";
+          var taille = prenoms.unshift("Florain", "Cloé");
+
+          for( var i = 0 ; i < prenoms.length; i++){
+               p+= 'Prénom n°' + (i+1) + ' : ' + prenoms[i] + '\n';
+          }  
+          
+          alert('Notre tableau contient ' + taille + ' prenom : \n\n'); 
+      </script> 
+    </body>  
+</html>
+
+#########
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "Victor", "Julia", "Claire"], p="";
+          var taille = prenoms.unshift("Florain", "Cloé");
+
+          for( var i = 0 ; i < prenoms.length; i++){
+               p+= 'Prénom n°' + (i+1) + ' : ' + prenoms[i] + '\n';
+          }  
+          
+          alert('Notre tableau contient ' + taille + ' prenom : \n\n' + p); 
+      </script> 
+    </body>  
+</html>
+
+##########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "Victor", "Julia", "Claire"], p="";
+          var suppr = prenoms.shift();
+
+          for( var i = 0 ; i < prenoms.length; i++){
+               p+= 'Prénom n°' + (i+1) + ' : ' + prenoms[i] + '\n';
+          }  
+          
+          alert('Nouveau tableau : \n' + p + '\n\nPrénom supprimé : ' + suppr); 
+      </script> 
+    </body>  
+</html>
+########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "Victor", "Julia", "Claire"], p="";
+          prenoms.splice(1,0,'Florian','Cloé')
+
+          for( var i = 0 ; i < prenoms.length; i++){
+               p+= 'Prénom n°' + (i+1) + ' : ' + prenoms[i] + '\n';
+          }  
+          
+          alert('Nouveau tableau :\n\n' + p);
+      </script> 
+    </body>  
+</html>
+########
+
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "Victor", "Julia", "Claire"], p="";
+          prenoms.splice(1,3)
+
+          for( var i = 0 ; i < prenoms.length; i++){
+               p+= 'Prénom n°' + (i+1) + ' : ' + prenoms[i] + '\n';
+          }  
+          
+          alert('Nouveau tableau :\n\n' + p);
+      </script> 
+    </body>  
+</html>
+
+#########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "pierre", "Julia", "jullia"], p="";
+          prenoms.sort();
+
+          for( var i = 0 ; i < prenoms.length; i++){
+               p+= 'Prénom n°' + (i+1) + ' : ' + prenoms[i] + '\n';
+          }  
+          
+          alert('Nouveau tableau :\n\n' + p);
+      </script> 
+    </body>  
+</html>
+##########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "pierre", "Julia", "jullia"], p="";
+          prenoms.sort();
+          prenoms.reverse();
+
+          for( var i = 0 ; i < prenoms.length; i++){
+               p+= 'Prénom n°' + (i+1) + ' : ' + prenoms[i] + '\n';
+          }  
+          
+          alert('Nouveau tableau :\n\n' + p);
+      </script> 
+    </body>  
+</html>
+###########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "pierre", "Julia", "jullia"], p="";
+          var chaine = prenoms.join('/');
+
+          for( var i = 0 ; i < prenoms.length; i++){
+               p+= 'Prénom n°' + (i+1) + ' : ' + prenoms[i] + '\n';
+          }  
+          
+          alert('Notre tableau :\n' + p + 
+                '\n\nLachaine renvoyée par join() : ' + chaine);
+      </script> 
+    </body>  
+</html>
+###########
+
+
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var prenoms = ["Pierre", "Victor", "Julia", "Clare"], p="";
+          var garçons = prenoms.slice(0,2);
+
+          for( var i = 0 ; i < prenoms.length; i++){
+               p+= 'Prénom n°' + (i+1) + ' : ' + prenoms[i] + '\n';
+          }  
+          
+          alert('Notre tableau de base : ' + prenoms + 
+                '\n\nLe tableau créé par slice : ' + garçons);
+      </script> 
+    </body>  
+</html>
+
+#########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var garçons  = ["Pierre", "Victor", "Florian"];
+          var filles = ["Julia", "Clare"];
+          
+          var gf = garçons.concat(filles);
+          var fg = filles.concat(garçons);  
+         
+          
+          alert('Valeur du tableau garçon : ' + garçons + 
+                '\nValeur du tableau filles : ' + filles +
+                '\nValeur du tableau gf : ' + gf + 
+                '\nValeur du tableau fg : ' + fg) ;
+      </script> 
+    </body>  
+</html>
+###########
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+          var garçons  = ["Pierre", "Victor", "Florian"];
+          var filles = ["Julia", "Clare"];
+          
+          var animaux = ["Bubule", "Minouche"];
+           
+          
+          var fusion= garçons.concat(filles, animaux );
+            
+         
+          
+          alert('Fusion : \n' + fusion );
+      </script> 
+    </body>  
+</html>
+####################################################################################
+
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var datelit = Date();                 
+           var datems = Date.now();
+           
+           alert("Date litérale : " + datelit +
+                 "\nDte sous forme de ms : " + datems); 
+      </script> 
+    </body>  
+</html>
+##################################################################################
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var d = new Date();                 
+           
+           alert(d); 
+      </script> 
+    </body>  
+</html>
+##################################################################################
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var d = new Date("January 25, 2015 09:00:00");                 
+           
+           alert(d); 
+      </script> 
+    </body>  
+</html>
+
+##################################################################################
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les Dates en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les Dates en JavaScipt</h1>
+      <script>
+           var d = new Date(0);                 
+           
+           alert(d); 
+      </script> 
+    </body>  
+</html>
+##################################################################################
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var d = new Date(604800000);                 
+           
+           alert(d); 
+      </script> 
+    </body>  
+</html>
+#################################################################################
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var d1 = new Date(215,6,15,12,30,20,110);                 
+           var d2 = new Date(215,6,15);
+           
+           alert("Date 1 : " + d1 +
+                 "\nDate 2 : " + d2); 
+      </script> 
+    </body>  
+</html>
+##################################################################################
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les objets en JavaScipt</h1>
+      <script>
+           var diso1 = new Date("2015-06-15");                 
+           var diso2 = new Date("2015-06-15T12:00:00");
+
+           var dcourte = new Date("06/15/2015");
+           var dlongue = new Date("January 25 2015 09:00:00");
+
+           var dcomp = new Date("Sun Jan 25 2015 09:00:00 GMT+0100");
+           
+           alert("Date ISO courte : " + diso1 +
+                 "\nDate ISO complète : " + diso2 +
+                 "\nDate courte : " + dcourte +
+                 "\nDate longue : " + dlongue +
+                 "\nDate complète : " + dcomp); 
+      </script> 
+    </body>  
+</html>
+
+###################################################################################
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les Dates en JavaScipt</h1>
+      <script>
+           var d = new Date();                 
+           
+           var dms = d.getTime();
+           var dy = d.getFullYear();
+           var dmo = d.getMonth() +1;
+           var ddate = d.getDate(); 
+           var dday = d.getDate(); 
+
+           var dh = d.getHours(); 
+           var dmi = d.getMinutes(); 
+           var ds = d.getSeconds(); 
+           var dMs = d.getMilliseconds(); 
+
+           alert("Nous sommes le  " + ddate +'/'+ dmo +'/' + dy + 
+                 ".\nIl est actuellement " + dh +':'+ dmi +':' + ds+':'+ dMs); 
+      </script> 
+    </body>  
+</html>
+
+###################################################################################
+
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les Dates en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les Dates en JavaScipt</h1>
+      <script>
+           var d = new Date();                 
+           
+           d.setFullYear(2015,5,15);
+           d.setHours(12);
+           d.setMinutes(12);
+           d.setSeconds(15);
+
+           alert('Date définie : ' + d); 
+      </script> 
+    </body>  
+</html>
+
+###################################################################################
+
+<!DOCTYPE html> 
+<html>
+    <head>
+      <title>Les objets en JavaScipt</title>
+      <meta charset="utf-8">      
+    </head>
+    <body>
+      <h1>Les Dates en JavaScipt</h1>
+      <script>
+           var d = new Date();                 
+           
+           var dy = d.getFullYear();
+           var dmo = d.getMonth();
+           var ddate = d.getDate(); 
+           var dday = d.getDay();
+           var dh = d.getHours(); 
+           var dmi = d.getMinutes(); 
+           var ds = d.getSeconds(); 
+           
+           var mois =["janvier", "février", "mars", "avril","mai","juin","juillet","oût","septembre","octobre","novenbre","décembre" ];
+           var jour =["dimanche","lundi", "mardi", "mercredi", "jeudi","vendredi","samedi"];
+ 
+           alert("Le  " + jour[dday] +' '+ ddate +' ' + mois[dmo] + ' '+ dy +
+                 ".\nIl est : " + dh +'h ' +dmi +'mn et ' + ds +'s.'); 
+      </script> 
+    </body>  
+</html>
